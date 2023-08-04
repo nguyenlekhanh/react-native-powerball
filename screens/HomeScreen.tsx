@@ -11,6 +11,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import { useAppTimerContext } from '../components/AppTimerProvider'; 
 import Bubble from './Bubble';
 import HeaderScreen from './HeaderScreen';
+import ChooseGameScreen from './ChooseGameScreen';
 
 type RootStackParamList = {};
 
@@ -51,11 +52,12 @@ const HomeScreen = ({ route, navigation }: Props) => {
   return (
     <SafeAreaView className="flex-columns items-center w-full h-max">
         <HeaderScreen />
-        <View className="w-full h-[84%]">
+        <ChooseGameScreen />
+        {/* <View className="w-full h-[84%]">
             <View className="h-[100%] bg-blue-700">
                 <Bubble size={50} />
             </View>
-        </View>
+        </View> */}
 
         <AdsScreen />
     </SafeAreaView>

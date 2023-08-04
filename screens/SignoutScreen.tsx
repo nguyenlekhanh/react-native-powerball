@@ -9,6 +9,8 @@ import { serverUrl, signupWithGoogleUrl } from '../utils/variables';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { fetchData } from '../utils/updateData';
 
+import { ArrowLeftOnRectangleIcon } from "react-native-heroicons/outline";
+
 const SignoutScreen: React.FC = () => {
   const navigation = useNavigation();
   const userServerUpdated = useState<number>(1);
@@ -88,8 +90,9 @@ const SignoutScreen: React.FC = () => {
     return (
       <TouchableOpacity onPress={() => googleSignInHandler()}>
         <Text
-          className="bold mr-1 text-lg"
+          className="bold mr-1 mb-1 text-xl font-bold pr-2 color-blue-700"
         >
+          {/* <ArrowLeftOnRectangleIcon size={40} color={"red"} /> */}
           {t("sign-in-with-google")}
         </Text>
       </TouchableOpacity>
