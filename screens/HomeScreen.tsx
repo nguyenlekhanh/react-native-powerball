@@ -51,8 +51,10 @@ const HomeScreen = ({ route, navigation }: Props) => {
 
   return (
     <SafeAreaView className="flex-columns items-center w-full h-max">
+      <View className="w-full h-[91%]">
         <HeaderScreen />
         <ChooseGameScreen />
+      </View>
         {/* <View className="w-full h-[84%]">
             <View className="h-[100%] bg-blue-700">
                 <Bubble size={50} />
