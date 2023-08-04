@@ -1,0 +1,208 @@
+{
+  "questions": [
+    {
+      "question": "George Washington was the first President",
+      "translate_vn": "George Washington là tổng thống đầu tiên của nước Mỹ",
+      "translate_es": "George Washington fue el primer presidente",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-1.mp3"
+    },
+    {
+      "question": "When is Thanksgiving?",
+      "translate_vn": "Khi nào là Ngày Tạ Ơn?",
+      "translate_es": "¿Cuándo es el Día de Acción de Gracias?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-2.mp3"
+    },
+    {
+      "question": "Who is the Father of Our Country?",
+      "translate_vn": "Ai là Cha của đất nước chúng ta?",
+      "translate_es": "¿Quién es el Padre de Nuestro País?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-3.mp3"
+    },
+    {
+      "question": "When is Columbus Day?",
+      "translate_vn": "Khi nào là Ngày Columbus?",
+      "translate_es": "¿Cuándo es el Día de Colón?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-4.mp3"
+    },
+    {
+      "question": "Who is on the one-dollar bill?",
+      "translate_vn": "Ai được miêu tả trên tờ một đô la?",
+      "translate_es": "¿Quién está en el billete de un dólar?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-5.mp3"
+    },
+    {
+      "question": "What city was the first capital of the United States?",
+      "translate_vn": "Thành phố nào là thủ đô đầu tiên của Hoa Kỳ?",
+      "translate_es": "¿Cuál fue la primera capital de los Estados Unidos?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-6.mp3"
+    },
+    {
+      "question": "Who lived here first?",
+      "translate_vn": "Ai đã sống ở đây trước?",
+      "translate_es": "¿Quién vivió aquí primero?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-7.mp3"
+    },
+    {
+      "question": "George Washington is on the one-dollar bill",
+      "translate_vn": "George Washington được miêu tả trên tờ một đô la",
+      "translate_es": "George Washington está en el billete de un dólar",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-8.mp3"
+    },
+    {
+      "question": "When is Independence Day?",
+      "translate_vn": "Khi nào là Ngày Độc lập?",
+      "translate_es": "¿Cuándo es el Día de la Independencia?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-9.mp3"
+    },
+    {
+      "question": "What are the colors of the American flag?",
+      "translate_vn": "Màu sắc của lá cờ Mỹ là gì?",
+      "translate_es": "¿Cuáles son los colores de la bandera estadounidense?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-10.mp3"
+    },
+    {
+      "question": "What is the capital of the United States?",
+      "translate_vn": "Thủ đô của Hoa Kỳ là gì?",
+      "translate_es": "¿Cuál es la capital de Estados Unidos?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-11.mp3"
+    },
+    {
+      "question": "Who elects Congress?",
+      "translate_vn": "Ai bầu cử Quốc hội?",
+      "translate_es": "¿Quién elige al Congreso?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-12.mp3"
+    },
+    {
+      "question": "Who was the second President?",
+      "translate_vn": "Tổng thống thứ hai là ai?",
+      "translate_es": "¿Quién fue el segundo presidente?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-13.mp3"
+    },
+    {
+      "question": "Where is the White House?",
+      "translate_vn": "Nhà Trắng ở đâu?",
+      "translate_es": "¿Dónde está la Casa Blanca?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-14.mp3"
+    },
+    {
+      "question": "Who was George Washington?",
+      "translate_vn": "George Washington là ai?",
+      "translate_es": "¿Quién fue George Washington?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-15.mp3"
+    },
+    {
+      "question": "The President lives in the White House",
+      "translate_vn": "Tổng thống sống tại Nhà Trắng",
+      "translate_es": "El presidente vive en la Casa Blanca",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-16.mp3"
+    },
+    {
+      "question": "How many states does the U.S. have?",
+      "translate_vn": "Hoa Kỳ có bao nhiêu tiểu bang?",
+      "translate_es": "¿Cuántos estados tiene Estados Unidos?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-17.mp3"
+    },
+    {
+      "question": "Who was Abraham Lincoln?",
+      "translate_vn": "Abraham Lincoln là ai?",
+      "translate_es": "¿Quién fue Abraham Lincoln?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-18.mp3"
+    },
+    {
+      "question": "When is Presidents’ Day?",
+      "translate_vn": "Khi nào là Ngày của Tổng thống?",
+      "translate_es": "¿Cuándo es el Día de los Presidentes?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-19.mp3"
+    },
+    {
+      "question": "A United States citizen has the right to vote",
+      "translate_vn": "Công dân Hoa Kỳ có quyền bầu cử",
+      "translate_es": "Un ciudadano de Estados Unidos tiene el derecho de votar",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-20.mp3"
+    },
+    {
+      "question": "When is Labor Day?",
+      "translate_vn": "Khi nào là Ngày lao động?",
+      "translate_es": "¿Cuándo es el Día del Trabajo?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-21.mp3"
+    },
+    {
+      "question": "Name one right in the Bill of Rights",
+      "translate_vn": "Hãy đề cập một quyền trong Hiến chương Nhân quyền",
+      "translate_es": "Menciona un derecho en la Declaración de Derechos",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-22.mp3"
+    },
+    {
+      "question": "Where does Congress meet?",
+      "translate_vn": "Quốc hội gặp nhau ở đâu?",
+      "translate_es": "¿Dónde se reúne el Congreso?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-23.mp3"
+    },
+    {
+      "question": "What country is to the north of the U.S.?",
+      "translate_vn": "Quốc gia nào nằm ở phía bắc của Hoa Kỳ?",
+      "translate_es": "¿Qué país está al norte de Estados Unidos?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-24.mp3"
+    },
+    {
+      "question": "What do we have to pay to the government?",
+      "translate_vn": "Chúng ta phải trả gì cho chính phủ?",
+      "translate_es": "¿Qué tenemos que pagar al gobierno?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-25.mp3"
+    },
+    {
+      "question": "Who can vote?",
+      "translate_vn": "Ai có thể bỏ phiếu?",
+      "translate_es": "¿Quién puede votar?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-26.mp3"
+    },
+    {
+      "question": "When is Flag Day?",
+      "translate_vn": "Khi nào là Ngày của lá cờ?",
+      "translate_es": "¿Cuándo es el Día de la Bandera?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-27.mp3"
+    },
+    {
+      "question": "What is the largest state?",
+      "translate_vn": "Tiểu bang lớn nhất là gì?",
+      "translate_es": "¿Cuál es el estado más grande?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-28.mp3"
+    },
+    {
+      "question": "How many senators does the Congress have?",
+      "translate_vn": "Quốc hội có bao nhiêu thượng nghị sĩ?",
+      "translate_es": "¿Cuántos senadores tiene el Congreso?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-29.mp3"
+    },
+    {
+      "question": "What state has the most people?",
+      "translate_vn": "Tiểu bang nào có nhiều dân số nhất?",
+      "translate_es": "¿Qué estado tiene más población?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-30.mp3"
+    },
+    {
+      "question": "What country is to the south of the U.S.?",
+      "translate_vn": "Quốc gia nào nằm ở phía nam của Hoa Kỳ?",
+      "translate_es": "¿Qué país está al sur de Estados Unidos?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-31.mp3"
+    },
+    {
+      "question": "When is Memorial Day?",
+      "translate_vn": "Khi nào là Ngày Tưởng niệm?",
+      "translate_es": "¿Cuándo es el Día Conmemorativo?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-32.mp3"
+    },
+    {
+      "question": "What was the first state?",
+      "translate_vn": "Tiểu bang đầu tiên là gì?",
+      "translate_es": "¿Cuál fue el primer estado?",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-33.mp3"
+    },
+    {
+      "question": "George Washington is the Father of Our Country",
+      "translate_vn": "George Washington là Cha của đất nước chúng ta",
+      "translate_es": "George Washington es el Padre de Nuestro País",
+      "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/reading-sentence-34.mp3"
+    }
+  ]
+}

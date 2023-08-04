@@ -1,0 +1,2380 @@
+{
+  "questions": [
+    {
+      "question": "What is the supreme law of the land?",
+      "options": [
+        {
+          "answer": "The Bill of Rights",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Constitution",
+          "isCorrect": true
+        },
+        {
+          "answer": "The Declaration of Independence",
+          "isCorrect": false
+        }
+      ],
+      "answer": "the Constitution",
+      "question_vn": "Luật tối cao của đất nước là gì?",
+      "answer_vn": "Hiến Pháp",
+      "question_es": "¿Cuál es la ley suprema de la tierra?",
+      "answer_es": "La Constitución",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2001.mp3"
+    },
+    {
+      "question": "What does the Constitution do?",
+      "options": [
+        {
+          "answer": "Defines the government.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Sets up the government.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Protects basic rights of Americans.",
+          "isCorrect": false
+        },
+        {
+          "answer": "All of these answers.",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["sets up the government", "defines the government", "protects basic rights of Americans"],
+      "question_vn": "Hiến Pháp thực thi điều gì",
+      "answer_vn": ["Thiết lập chính phủ", "Định rõ chính phủ", "Bảo vệ các quyền cơ bản của người dân Hoa Kỳ"],
+      "question_es": "¿Qué hace la Constitución?",
+      "answer_es": "Establece el gobierno, define el gobierno y protege los derechos básicos de los estadounidenses.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2002.mp3"
+    },
+    {
+      "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+      "options": [
+        {
+          "answer": "We the People.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Congress shall make.",
+          "isCorrect": false
+        },
+        {
+          "answer": "We the British.",
+          "isCorrect": false
+        },
+        {
+          "answer": "We the Colonists.",
+          "isCorrect": false
+        }
+      ],
+      "answer": "We the People",
+      "question_vn": "Ý tưởng tự quản trị nằm trong ba chữ đầu tiên của Hiến Pháp. Các chữ này là những chữ nào?",
+      "answer_vn": "Chúng ta [người] dân",
+      "question_es": "La idea de autogobierno está en las tres primeras palabras de la Constitución. ¿Cuáles son estas palabras?",
+      "answer_es": "Nosotros el Pueblo.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2003.mp3"
+    },
+    {
+      "question": "What is an amendment?",
+      "options": [
+        {
+          "answer": "An addition (to the Constitution).",
+          "isCorrect": true
+        },
+        {
+          "answer": "The Preamble to the Constitution.",
+          "isCorrect": false
+        },
+        {
+          "answer": "An introduction.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The beginning of the Declaration of Independence.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["a change (to the Constitution)", "an addition (to the Constitution)"],
+      "question_vn": "Tu chính án là gì?",
+      "answer_vn": ["một sự thay đổi (trong Hiến Pháp)", "một sự thêm (vào Hiến Pháp)"],
+      "question_es": "¿Qué es una enmienda?",
+      "answer_es": "Una adición (a la Constitución).",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2004.mp3"
+    },
+    {
+      "question": "What do we call the first ten amendments to the Constitution?",
+      "options": [
+        {
+          "answer": "The Articles of Confederation.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The inalienable rights.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Declaration of Independence.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Bill of Rights.",
+          "isCorrect": true
+        }
+      ],
+      "answer": "the Bill of Rights",
+      "question_vn": "Ta gọi mười tu chính đầu tiên vào Hiến Pháp là gì?",
+      "answer_vn": "Luật Dân Quyền",
+      "question_es": "¿Cómo llamamos a las primeras diez enmiendas de la Constitución?",
+      "answer_es": "La Carta de Derechos.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2005.mp3"
+    },
+    {
+      "question": "What is one right or freedom from the First Amendment?",
+      "options": [
+        {
+          "answer": "Speech",
+          "isCorrect": true
+        },
+        {
+          "answer": "To break the law",
+          "isCorrect": false
+        },
+        {
+          "answer": "To vote",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["speech", "religion", "assembly", "press", "petition the government"],
+      "question_vn": "Kể ra Một quyền hoặc một tự do trong Tu Chính Án Đầu Tiên (First Amendment)?*",
+      "answer_vn": ["tự do ngôn luận", "tự do tôn giáo", "tự do hội họp", " tự do báo chí", "tự do thỉnh nguyện chánh phủ"],
+      "question_es": "¿Cuál es un derecho o libertad de la Primera Enmienda?",
+      "answer_es": "Libertad de expresión.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2006.mp3"
+    },
+    {
+      "question": "How many amendments does the Constitution have?",
+      "options": [
+        {
+          "answer": "33",
+          "isCorrect": false
+        },
+        {
+          "answer": "27",
+          "isCorrect": true
+        },
+        {
+          "answer": "10",
+          "isCorrect": false
+        }
+      ],
+      "answer": "twenty-seven (27)",
+      "question_vn": "Hiến Pháp có bao nhiêu tu chính án?",
+      "answer_vn": "hai mươi bảy (27)",
+      "question_es": "¿Cuántas enmiendas tiene la Constitución?",
+      "answer_es": "Veintisiete (27).",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2007.mp3"
+    },
+    {
+      "question": "What did the Declaration of Independence do?",
+      "options": [
+        {
+          "answer": "Said that the United States is free",
+          "isCorrect": true
+        },
+        {
+          "answer": "Abolished slavery",
+          "isCorrect": false
+        },
+        {
+          "answer": "Declared a truce with Great Britain",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["announced our independence (from Great Britain)", "declared our independence (from Great Britain)", "said that the United States is free (from Great Britain)"],
+      "question_vn": "Bản Tuyên Ngôn Độc Lập có ý nghĩa gì?",
+      "answer_vn": ["thông báo nền độc lập của chúng ta (khỏi Anh Quốc)", " tuyên cáo nền độc lập của chúng ta (khỏi Anh Quốc)", "cho biết Hoa Kỳ đã tự do (khỏi Anh Quốc)"],
+      "question_es": "¿Qué hizo la Declaración de Independencia?",
+      "answer_es": "Dijo que Estados Unidos es libre.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2008.mp3"
+    },
+    {
+      "question": "What are two rights in the Declaration of Independence?",
+      "options": [
+        {
+          "answer": "Liberty and taxes",
+          "isCorrect": false
+        },
+        {
+          "answer": "Pursuit of happiness and taxes",
+          "isCorrect": false
+        },
+        {
+          "answer": "Life and liberty",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["life", "liberty", "pursuit of happiness"],
+      "question_vn": "Kể ra Hai quyền trong bản Bản Tuyên Ngôn Độc Lập?",
+      "answer_vn": ["quyền sống", "quyền tự do", "quyền theo đuổi hạnh phúc"],
+      "question_es": "¿Cuáles son dos derechos en la Declaración de Independencia?",
+      "answer_es": "Vida y libertad.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2009.mp3"
+    },
+    {
+      "question": "What is freedom of religion?",
+      "options": [
+        {
+          "answer": "You can’t choose the time you practice your religion.",
+          "isCorrect": false
+        },
+        {
+          "answer": "You must choose a religion.",
+          "isCorrect": false
+        },
+        {
+          "answer": "You can practice any religion, or not practice a religion.",
+          "isCorrect": true
+        },
+        {
+          "answer": "No one can practice a religion.",
+          "isCorrect": false
+        }
+      ],
+      "answer": "You can practice any religion, or not practice a religion.",
+      "question_vn": "Tự do tôn giáo là gì?",
+      "answer_vn": "Bạn có thể theo bất cứ tôn giáo nào, hoặc không theo tôn giáo nào",
+      "question_es": "¿Qué es la libertad de religión?",
+      "answer_es": "Puedes practicar cualquier religión o no practicar ninguna religión.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2010.mp3"
+    },
+    {
+      "question": "What is the economic system in the United States?",
+      "options": [
+        {
+          "answer": "Communist",
+          "isCorrect": false
+        },
+        {
+          "answer": "Capitalist",
+          "isCorrect": true
+        },
+        {
+          "answer": "Socialist",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["capitalist economy", "market economy"],
+      "question_vn": "Hệ thống kinh tế của Hoa Kỳ gọi là gì?*",
+      "answer_vn": ["kinh tế tư bản", "kinh tế thị trường"],
+      "question_es": "¿Cuál es el sistema económico en Estados Unidos?",
+      "answer_es": ["economía capitalista", "economía de mercado"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2011.mp3"
+    },
+    {
+      "question": "What is the 'rule of law'?",
+      "options": [
+        {
+          "answer": "Everyone but the President must follow the law.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Government does not have to follow the law.",
+          "isCorrect": false
+        },
+        {
+          "answer": "All laws must be the same in every state.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Everyone must follow the law.",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["Everyone must follow the law.", "Leaders must obey the law.", "Government must obey the law.", "No one is above the law."],
+      "question_vn": "“Thượng tôn luật pháp” là gì?",
+      "answer_vn": ["Mọi người đều phải tuân theo luật pháp.", "Cả các người lãnh đạo đều phải tuân theo luật pháp.", "Nhà cầm quyền phải tuân theo luật pháp.", "Không ai được ở trên pháp luật cả."],
+      "question_es": "¿Qué es el 'estado de derecho'?",
+      "answer_es": ["Todos deben seguir la ley.", "Los líderes deben obedecer la ley.", "El gobierno debe obedecer la ley.", "Nadie está por encima de la ley."],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2012.mp3"
+    },
+    {
+      "question": "Name one branch or part of the government.",
+      "options": [
+        {
+          "answer": "State government.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Legislative.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Parliament.",
+          "isCorrect": false
+        },
+        {
+          "answer": "United Nations.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["Congress", "legislative", "President", "executive", "the courts", "judicial"],
+      "question_vn": "Cho biết một ngành hay phần của công quyền.*",
+      "answer_vn": ["Quốc Hội", "lập pháp", " Tổng Thống", "hành pháp", "các tòa án", "tư pháp"],
+      "question_es": "Nombre una rama o parte del gobierno.",
+      "answer_es": ["Congreso", "legislativo", "Presidente", "ejecutivo", "los tribunales", "judicial"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2013.mp3"
+    },
+    {
+      "question": "What stops one branch of government from becoming too powerful?",
+      "options": [
+        {
+          "answer": "The President.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Checks and balances.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The people.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Freedom of speech.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["checks and balances", "separation of powers"],
+      "question_vn": "Cách nào ngăn cản một ngành công quyền trở thành quá mạnh?",
+      "answer_vn": ["kiểm soát lẫn nhau", "phân quyền"],
+      "question_es": "¿Qué impide que una rama del gobierno se vuelva demasiado poderosa?",
+      "answer_es": "El sistema de controles y equilibrios.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2014.mp3"
+    },
+    {
+      "question": "Who is in charge of the executive branch?",
+      "options": [
+        {
+          "answer": "The Speaker of the House.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Prime Minister.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The President.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The Chief Justice.",
+          "isCorrect": false
+        }
+      ],
+      "answer": "the President",
+      "question_vn": "Ai phụ trách hành pháp?",
+      "answer_vn": "Tổng Thống",
+      "question_es": "¿Quién está a cargo del poder ejecutivo?",
+      "answer_es": "El Presidente.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2015.mp3"
+    },
+    {
+      "question": "Who makes federal laws?",
+      "options": [
+        {
+          "answer": "Congress.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The states.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The President.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Supreme Court.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["Congress", "Senate and House (of Representatives)", "(U.S. or national) legislature"],
+      "question_vn": "Ai làm luật liên bang?",
+      "answer_vn": ["Quốc Hội", " Thượng và Hạ Nghị Viện", "Ngành Lập Pháp (của Liên Bang hay Quốc Gia)"],
+      "question_es": "¿Quién crea las leyes federales?",
+      "answer_es": "El Congreso.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2016.mp3"
+    },
+    {
+      "question": "What are the two parts of the U.S. Congress?",
+      "options": [
+        {
+          "answer": "Senate and House of Representatives",
+          "isCorrect": true
+        },
+        {
+          "answer": "President and Vice President",
+          "isCorrect": false
+        },
+        {
+          "answer": "Cabinet and President",
+          "isCorrect": false
+        }
+      ],
+      "answer": "the Senate and House (of Representatives)",
+      "question_vn": "Hai phần của Quốc Hội Hoa Kỳ là gì?*",
+      "answer_vn": "Thượng và Hạ Nghị Viện",
+      "question_es": "¿Cuáles son las dos partes del Congreso de EE. UU.?",
+      "answer_es": "El Senado y la Cámara de Representantes.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2017.mp3"
+    },
+    {
+      "question": "How many U.S. Senators are there?",
+      "options": [
+        {
+          "answer": "100",
+          "isCorrect": true
+        },
+        {
+          "answer": "50",
+          "isCorrect": false
+        },
+        {
+          "answer": "200",
+          "isCorrect": false
+        }
+      ],
+      "answer": "one hundred (100)",
+      "question_vn": "Có bao nhiêu Thượng Nghị Sĩ Liên Bang?",
+      "answer_vn": "100",
+      "question_es": "¿Cuántos senadores hay en Estados Unidos?",
+      "answer_es": "cien (100)",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2018.mp3"
+    },
+    {
+      "question": "We elect a U.S. Senator for how many years?",
+      "options": [
+        {
+          "answer": "Ten (10).",
+          "isCorrect": false
+        },
+        {
+          "answer": "Four (4).",
+          "isCorrect": false
+        },
+        {
+          "answer": "Two (2).",
+          "isCorrect": false
+        },
+        {
+          "answer": "Six (6).",
+          "isCorrect": true
+        }
+      ],
+      "answer": "six (6)",
+      "question_vn": "Chúng ta bầu Thượng Nghị Sĩ cho bao nhiêu năm?",
+      "answer_vn": "6",
+      "question_es": "¿Por cuántos años elegimos a un Senador de EE. UU.?",
+      "answer_es": "seis (6)",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2019.mp3"
+    },
+    {
+      "question": "Who is one of your state's U.S. Senators now?",
+      "options": ["Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.]"],
+      "answer": "Answers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.]",
+      "question_vn": "Ai là một trong những Thượng Nghị Sĩ Liên Bang của bạn?*",
+      "answer_vn": "Câu trả lời thay đổi tùy tiểu bang. [Cư dân ở thủ đô Washington, D.C. và cư dân ở các lãnh thổ Hoa Kỳ trả lời là DC hoặc lãnh thổ mình ở không có thượng-nghị-sĩ.]",
+      "question_es": "¿Quién es uno de los senadores de su estado en este momento?",
+      "answer_es": "Las respuestas pueden variar. [Los residentes del Distrito de Columbia y los residentes de los territorios de EE. UU. deben responder que D.C. (o el territorio donde vive el solicitante) no tiene senadores de EE. UU.]",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2020.mp3"
+    },
+    {
+      "question": "The House of Representatives has how many voting members?",
+      "options": [
+        {
+          "answer": "Four hundred forty-one (441).",
+          "isCorrect": false
+        },
+        {
+          "answer": "Four hundred thirty-five (435).",
+          "isCorrect": true
+        },
+        {
+          "answer": "Two hundred (200).",
+          "isCorrect": false
+        },
+        {
+          "answer": "One hundred (100).",
+          "isCorrect": false
+        }
+      ],
+      "answer": "four hundred thirty-five (435)",
+      "question_vn": "Hạ-Nghị-Viện có bao nhiêu dân biểu?",
+      "answer_vn": "453",
+      "question_es": "¿Cuántos miembros con derecho a voto tiene la Cámara de Representantes?",
+      "answer_es": "cuatrocientos treinta y cinco (435)",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2021.mp3"
+    },
+    {
+      "question": "We elect a U.S. Representative for how many years?",
+      "options": [
+        {
+          "answer": "8",
+          "isCorrect": false
+        },
+        {
+          "answer": "2",
+          "isCorrect": true
+        },
+        {
+          "answer": "6",
+          "isCorrect": false
+        }
+      ],
+      "answer": "two (2)",
+      "question_vn": "Chúng ta bầu dân biểu cho mấy năm?",
+      "answer_vn": "2",
+      "question_es": "¿Por cuántos años elegimos a un Representante de EE. UU.?",
+      "answer_es": "dos (2)",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2022.mp3"
+    },
+    {
+      "question": "Name your U.S. Representative.",
+      "options": ["Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress.]"],
+      "answer": "Answers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress.]",
+      "question_vn": "Cho biết tên dân biểu của bạn.",
+      "answer_vn": " Câu trả lời sẽ thay đổi tùy nơi. [Cư dân ở các nơi có Đại Biểu “không có quyền biểu quyết” hoặc Đại Biểu Thường Trú có thể nói tên người đó. Cũng có thể trả lời là vùng đó không có đại diện có quyền biểu quyết tại Quốc Hội.]",
+      "question_es": "Nombre a su Representante de EE. UU.",
+      "answer_es": "Las respuestas pueden variar. [Los residentes de territorios con Delegados o Comisionados no votantes pueden proporcionar el nombre de ese Delegado o Comisionado. También es aceptable cualquier declaración de que el territorio no tiene Representantes (votantes) en el Congreso.]",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2023.mp3"
+    },
+    {
+      "question": "Who does a U.S. Senator represent?",
+      "options": [
+        {
+          "answer": "The whole country",
+          "isCorrect": false
+        },
+        {
+          "answer": "Only people from Washington D.C.",
+          "isCorrect": false
+        },
+        {
+          "answer": "All the people of the state",
+          "isCorrect": true
+        }
+      ],
+      "answer": "all people of the state",
+      "question_vn": "Thượng-nghị-sĩ đại diện ai?",
+      "answer_vn": "Tất cả người dân trong tiểu bang",
+      "question_es": "¿A quién representa un Senador de EE. UU.?",
+      "answer_es": "a todas las personas del estado",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2024.mp3"
+    },
+    {
+      "question": "Why do some states have more Representatives than other states?",
+      "options": [
+        {
+          "answer": "Because the state's Representatives have seniority in the House of Representatives.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Because of the state's population.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Because of the geographical size of the state.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Because of the state's location.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["(because of) the state's population", "(because) they have more people", "(because) some states have more people"],
+      "question_vn": "Tại sao có những tiểu bang có nhiều đại biểu hơn các tiểu bang khác?",
+      "answer_vn": [" (Vì) dân số tiểu bang đó", " (Vì) tiểu bang đó đông dân hơn", " (Vì) một số tiểu bang đông dân hơn tiểu bang khác"],
+      "question_es": "¿Por qué algunos estados tienen más Representantes que otros estados?",
+      "answer_es": "(por) la población del estado",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2025.mp3"
+    },
+    {
+      "question": "We elect a President for how many years?",
+      "options": [
+        {
+          "answer": "Eight (8).",
+          "isCorrect": false
+        },
+        {
+          "answer": "Two (2).",
+          "isCorrect": false
+        },
+        {
+          "answer": "Four (4).",
+          "isCorrect": true
+        },
+        {
+          "answer": "Ten (10).",
+          "isCorrect": false
+        }
+      ],
+      "answer": "four (4)",
+      "question_vn": "Nhiệm kỳ Tổng Thống là mấy năm?",
+      "answer_vn": "4",
+      "question_es": "¿Por cuántos años elegimos a un Presidente de EE. UU.?",
+      "answer_es": "cuatro (4)",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2026.mp3"
+    },
+    {
+      "question": "In what month do we vote for President?",
+      "options": [
+        {
+          "answer": "December",
+          "isCorrect": false
+        },
+        {
+          "answer": "January",
+          "isCorrect": false
+        },
+        {
+          "answer": "November",
+          "isCorrect": true
+        }
+      ],
+      "answer": "November",
+      "question_vn": "Bầu Tổng Thống vào tháng nào?*",
+      "answer_vn": "9",
+      "question_es": "¿En qué mes votamos por el Presidente?",
+      "answer_es": "noviembre",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2027.mp3"
+    },
+    {
+      "question": "What is the name of the President of the United States now?",
+      "options": [
+        {
+          "answer": "Barack Obama",
+          "isCorrect": false
+        },
+        {
+          "answer": "Marco Rubio",
+          "isCorrect": false
+        },
+        {
+          "answer": "Joe Biden",
+          "isCorrect": true
+        }
+      ],
+      "answer": "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States.",
+      "question_vn": "Hiện nay tên Tổng Thống Hoa Kỳ là gì?*",
+      "answer_vn": "[Visit uscis.gov/citizenship/testupdates for the name of the President of the United States.]",
+      "question_es": "¿Cuál es el nombre del Presidente de Estados Unidos en este momento?",
+      "answer_es": "Visite uscis.gov/citizenship/testupdates para conocer el nombre del Presidente de Estados Unidos.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track_28.mp3"
+    },
+    {
+      "question": "What is the name of the Vice President of the United States now?",
+      "options": [
+        {
+          "answer": "Paul Ryan",
+          "isCorrect": false
+        },
+        {
+          "answer": "Joe Biden",
+          "isCorrect": false
+        },
+        {
+          "answer": "Kamala Harris",
+          "isCorrect": true
+        }
+      ],
+      "answer": "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States.",
+      "question_vn": "Hiện nay tên Phó Tổng Thống Hoa Kỳ là gì?",
+      "answer_vn": "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States.",
+      "question_es": "¿Cuál es el nombre del Vicepresidente de Estados Unidos en este momento?",
+      "answer_es": "Visite uscis.gov/citizenship/testupdates para conocer el nombre del Vicepresidente de Estados Unidos.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track_29.mp3"
+    },
+    {
+      "question": "If the President can no longer serve, who becomes President?",
+      "options": [
+        {
+          "answer": "The Speaker of the House",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Vice President",
+          "isCorrect": true
+        },
+        {
+          "answer": "The President elect",
+          "isCorrect": false
+        }
+      ],
+      "answer": "the Vice President",
+      "question_vn": "Nếu Tổng Thống không còn làm việc được nữa, ai sẽ thay thế làm Tổng Thống?",
+      "answer_vn": "Phó Tổng Thống",
+      "question_es": "Si el Presidente ya no puede servir, ¿quién se convierte en Presidente?",
+      "answer_es": "el Vicepresidente",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2030.mp3"
+    },
+    {
+      "question": "If both the President and the Vice President can no longer serve, who becomes President?",
+      "options": [
+        {
+          "answer": "The Secretary of Defense",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Speaker of the House",
+          "isCorrect": true
+        },
+        {
+          "answer": "The President elect",
+          "isCorrect": false
+        }
+      ],
+      "answer": "the Speaker of the House",
+      "question_vn": "Nếu cả Tổng Thống và Phó Tổng Thống không còn làm việc được nữa, ai sẽ thay thế?",
+      "answer_vn": "Chủ Tịch Hạ Nghị Viện",
+      "question_es": "Si tanto el Presidente como el Vicepresidente ya no pueden servir, ¿quién se convierte en Presidente?",
+      "answer_es": "el Presidente de la Cámara de Representantes",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2031.mp3"
+    },
+    {
+      "question": "Who is the Commander in Chief of the military?",
+      "options": [
+        {
+          "answer": "The President.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The Vice-President.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Secretary of Defense.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Attorney General.",
+          "isCorrect": false
+        }
+      ],
+      "answer": "the President",
+      "question_vn": "Ai là Tổng Tư Lệnh quân đội?",
+      "answer_vn": "Tổng Thống",
+      "question_es": "¿Quién es el Comandante en Jefe de las fuerzas armadas?",
+      "answer_es": "el Presidente",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2032.mp3"
+    },
+    {
+      "question": "Who signs bills to become laws?",
+      "options": [
+        {
+          "answer": "The Chief Justice of the Supreme Court.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Vice President.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Secretary of State.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The President.",
+          "isCorrect": true
+        }
+      ],
+      "answer": "the President",
+      "question_vn": "Ai sẽ ký dự thảo luật thành luật?",
+      "answer_vn": "Tổng Thống",
+      "question_es": "¿Quién firma los proyectos de ley para que se conviertan en leyes?",
+      "answer_es": "el Presidente",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2033.mp3"
+    },
+    {
+      "question": "Who vetoes bills?",
+      "options": [
+        {
+          "answer": "The Vice President",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Cabinet",
+          "isCorrect": false
+        },
+        {
+          "answer": "The President",
+          "isCorrect": true
+        }
+      ],
+      "answer": "the President",
+      "question_vn": "Ai có quyền phủ quyết các dự luật?",
+      "answer_vn": "Tổng Thống",
+      "question_es": "¿Quién veta los proyectos de ley?",
+      "answer_es": "el Presidente",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2034.mp3"
+    },
+    {
+      "question": "What does the President's Cabinet do?",
+      "options": [
+        {
+          "answer": "Creates laws",
+          "isCorrect": false
+        },
+        {
+          "answer": "Advises the President",
+          "isCorrect": true
+        },
+        {
+          "answer": "Writes bills",
+          "isCorrect": false
+        }
+      ],
+      "answer": "advises the President",
+      "question_vn": "Nội các của Tổng Thống làm gì?",
+      "answer_vn": "Cố vấn cho Tổng Thống",
+      "question_es": "¿Qué hace el Gabinete del Presidente?",
+      "answer_es": "asesora al Presidente",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2035.mp3"
+    },
+    {
+      "question": "What are two Cabinet-level positions?",
+      "options": [
+        {
+          "answer": "Vice President and Secretary of Road Works",
+          "isCorrect": false
+        },
+        {
+          "answer": "Secretary of State and the Attorney General",
+          "isCorrect": true
+        },
+        {
+          "answer": "Secretary of the Treasury and Secretary of International Affairs",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["Secretary of Agriculture", "Secretary of Commerce", "Secretary of Defense", "Secretary of Education", "Secretary of Energy", "Secretary of Health and Human Services", "Secretary of Homeland Security", "Secretary of Housing and Urban Development", "Secretary of the Interior", "Secretary of Labor", "Secretary of State", "Secretary of Transportation", "Secretary of the Treasury", "Secretary of Veterans Affairs", "Attorney General", "Vice President"],
+      "question_vn": "Kể ra Hai chức vụ trong hàng nội các.",
+      "answer_vn": [  "Bộ Trưởng Canh Nông",  "Bộ Trưởng Thương Mại",  "Bộ Trưởng Quốc Phòng",  "Bộ Trưởng Giáo Dục",  "Bộ Trưởng Năng Lượng",  "Bộ Trưởng Y Tế và Phục Vụ Nhân Sinh",  "Bộ Trưởng Nội An",  "Bộ Trưởng Gia Cư và Phát Triển Đô Thị",  "Bộ Trưởng Nội Vụ",  "Bộ Trưởng Lao Động",  "Bộ Trưởng Ngoại Giao",  "Bộ Trưởng Giao Thông",  "Bộ Trưởng Ngân Khố hay Tài Chính",  "Bộ Trưởng Cựu Chiến Binh",  "Bộ Trưởng Tư Pháp"],
+      "question_es": "¿Cuáles son dos posiciones de nivel de Gabinete?",
+      "answer_es": ["Secretario de Agricultura", "Secretario de Comercio", "Secretario de Defensa", "Secretario de Educación", "Secretario de Energía", "Secretario de Salud y Servicios Humanos", "Secretario de Seguridad Nacional", "Secretario de Vivienda y Desarrollo Urbano", "Secretario del Interior", "Secretario de Trabajo", "Secretario de Estado", "Secretario de Transporte", "Secretario del Tesoro", "Secretario de Asuntos de Veteranos", "Fiscal General", "Vicepresidente"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2036.mp3"
+    },
+    {
+      "question": "What does the judicial branch do?",
+      "options": [
+        {
+          "answer": "Decides if a law goes against the Constitution.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Reviews laws.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Resolves disputes.",
+          "isCorrect": false
+        },
+        {
+          "answer": "All of the above.",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["reviews laws", "explains laws", "resolves disputes (disagreements)", "decides if a law goes against the Constitution"],
+      "question_vn": "Ngành tư pháp làm gì?",
+      "answer_vn": [  "duyệt lại luật lệ",  "cắt nghĩa luật lệ",  "giải quyết tranh cãi (bất hòa)",  "quyết định xem luật có đi ngược lại hiến pháp không"],
+      "question_es": "¿Qué hace el poder judicial?",
+      "answer_es": ["revisa leyes", "explica leyes", "resuelve disputas (desacuerdos)", "decide si una ley va en contra de la Constitución"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2037.mp3"
+    },
+    {
+      "question": "What is the highest court in the United States?",
+      "options": [
+        {
+          "answer": "The District Court of Appeals",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Supreme Court",
+          "isCorrect": true
+        },
+        {
+          "answer": "The State Supreme Court",
+          "isCorrect": false
+        }
+      ],
+      "answer": "the Supreme Court",
+      "question_vn": "Tòa án cao nhất ở Hoa Kỳ là gì?",
+      "answer_vn": "Tối Cao Pháp Viện",
+      "question_es": "¿Cuál es el tribunal más alto en los Estados Unidos?",
+      "answer_es": "el Tribunal Supremo",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2038.mp3"
+    },
+    {
+      "question": "How many justices are on the Supreme Court?",
+      "options": [
+        {
+          "answer": "9",
+          "isCorrect": true
+        },
+        {
+          "answer": "7",
+          "isCorrect": false
+        },
+        {
+          "answer": "10",
+          "isCorrect": false
+        }
+      ],
+      "answer": "Visit uscis.gov/citizenship/testupdates for the number of justices on the Supreme Court.",
+      "question_vn": "Có bao nhiêu thẩm phán ở Tối Cao Pháp Viện?",
+      "answer_vn": "Chín (9) [Visit uscis.gov/citizenship/testupdates for the number of justices on the Supreme Court.]",
+      "question_es": "¿Cuántos jueces hay en el Tribunal Supremo?",
+      "answer_es": "Visite uscis.gov/citizenship/testupdates para obtener el número de jueces en el Tribunal Supremo.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track_39.mp3"
+    },
+    {
+      "question": "Who is the Chief Justice of the United States now?",
+      "options": [
+        {
+          "answer": "Sonia Sotomayor",
+          "isCorrect": false
+        },
+        {
+          "answer": "John Roberts",
+          "isCorrect": true
+        },
+        {
+          "answer": "Clarence Thomas",
+          "isCorrect": false
+        }
+      ],
+      "answer": "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States.",
+      "question_vn": "Ai đang là Chủ Tịch Tối Cao Pháp Viện?",
+      "answer_vn": "John Roberts (John G. Roberts, Jr.) [Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States.]",
+      "question_es": "¿Quién es el Presidente de la Corte Suprema de los Estados Unidos ahora?",
+      "answer_es": "Visite uscis.gov/citizenship/testupdates para obtener el nombre del Presidente de la Corte Suprema de los Estados Unidos.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track_40.mp3"
+    },
+    {
+      "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+      "options": [
+        {
+          "answer": "Establish local school policies",
+          "isCorrect": false
+        },
+        {
+          "answer": "Establish local fire departments",
+          "isCorrect": false
+        },
+        {
+          "answer": "Print money",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["to print money", "to declare war", "to create an army", "to make treaties"],
+      "question_vn": "Theo Hiến Pháp, chánh phủ liên bang có một số quyền. Một trong các quyền của chánh phủ liên bang là?",
+      "answer_vn": ["in tiền", "tuyên chiến", "lập quân đội", "ký các hòa ước"],
+      "question_es": "Según nuestra Constitución, algunos poderes pertenecen al gobierno federal. ¿Cuál es uno de los poderes del gobierno federal?",
+      "answer_es": ["imprimir dinero", "declarar la guerra", "crear un ejército", "hacer tratados"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2041.mp3"
+    },
+    {
+      "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+      "options": [
+        {
+          "answer": "Make treaties.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Provide schooling and education.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Create an army.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Coin or print money.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["provide schooling and education", "provide protection (police)", "provide safety (fire departments)", "give a driver's license", "approve zoning and land use"],
+      "question_vn": "Theo Hiến Pháp, các tiểu bang có một số quyền. Một trong những quyền này là gì? ",
+      "answer_vn": ["cung cấp trường học và giáo dục", "bảo vệ dân chúng (cảnh sát)", "bảo vệ an toàn (các sở cứu hỏa)", "cấp bằng lái xe", "chia vùng và chấp thuận cách xử dụng đất đai"],
+      "question_es": "Según nuestra Constitución, algunos poderes pertenecen a los estados. ¿Cuál es uno de los poderes de los estados?",
+      "answer_es": ["brindar educación y enseñanza", "brindar protección (policía)", "brindar seguridad (departamentos de bomberos)", "dar una licencia de conducir", "aprobar la zonificación y el uso de la tierra"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2042.mp3"
+    },
+    {
+      "question": "Who is the Governor of your state now?",
+      "options": ["Answers will vary. [District of Columbia residents should answer that D.C. does not have a Governor.]"],
+      "answer": "Answers will vary. [District of Columbia residents should answer that D.C. does not have a Governor.]",
+      "question_vn": "Thống Đốc tiểu bang của bạn tên gì?",
+      "answer_vn": "Câu trả lời tùy tiểu bang. [Cư dân vùng thủ đô Washington, D.C. phải trả lời là vùng thủ đô DC không có Thống Đốc.]",
+      "question_es": "¿Quién es el Gobernador de tu estado ahora?",
+      "answer_es": "Las respuestas variarán. [Los residentes del Distrito de Columbia deben responder que D.C. no tiene un Gobernador.]",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2043.mp3"
+    },
+    {
+      "question": "What is the capital of your state?",
+      "options": ["Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.]"],
+      "answer": "Answers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.]",
+      "question_vn": "Thủ phủ của tiểu bang bạn tên gì?*",
+      "answer_vn": "Câu trả lời tùy theo tiểu bang. [Cư dân vùng thủ đô Washington, D.C. phải trả lời là vùng DC không phải là một tiểu bang và không có thủ phủ. Cư dân các lãnh thổ hải ngoại của Hoa Kỳ phải cho biết thủ phủ của vùng lãnh thổ hải ngoại này.]",
+      "question_es": "¿Cuál es la capital de tu estado?",
+      "answer_es": "Las respuestas variarán. [Los residentes del Distrito de Columbia deben responder que D.C. no es un estado y no tiene una capital. Los residentes de los territorios de EE. UU. deben nombrar la capital del territorio.]",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2044.mp3"
+    },
+    {
+      "question": "What are the two major political parties in the United States?",
+      "options": [
+        {
+          "answer": "Reform and Green.",
+          "isCorrect": false
+        },
+        {
+          "answer": "American and Bull-Moose.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Democratic-Republican and Whig.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Democratic and Republican.",
+          "isCorrect": true
+        }
+      ],
+      "answer": "Democratic and Republican",
+      "question_vn": "Hai đảng chính của Hoa Kỳ là gì?*",
+      "answer_vn": "Dân Chủ và Cộng Hòa",
+      "question_es": "¿Cuáles son los dos principales partidos políticos en los Estados Unidos?",
+      "answer_es": "Demócratas y Republicanos",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2045.mp3"
+    },
+    {
+      "question": "What is the political party of the President now?",
+      "options": [
+        {
+          "answer": "Republican",
+          "isCorrect": false
+        },
+        {
+          "answer": "Democratic",
+          "isCorrect": true
+        },
+        {
+          "answer": "Independent",
+          "isCorrect": false
+        }
+      ],
+      "answer": "Visit uscis.gov/citizenship/testupdates for the political party of the President.",
+      "question_vn": "Đảng của Tổng Thống hiện tại là đảng nào?",
+      "answer_vn": "Visit uscis.gov/citizenship/testupdates for the political party of the President.",
+      "question_es": "¿Cuál es el partido político del Presidente ahora?",
+      "answer_es": "Visita uscis.gov/citizenship/testupdates para el partido político del Presidente.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track_46.mp3"
+    },
+    {
+      "question": "What is the name of the Speaker of the House of Representatives now?",
+      "options": [
+        {
+          "answer": "Paul Ryan",
+          "isCorrect": false
+        },
+        {
+          "answer": "Kevin McCarthy",
+          "isCorrect": true
+        },
+        {
+          "answer": "Nancy Pelosi",
+          "isCorrect": false
+        }
+      ],
+      "answer": "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives.",
+      "question_vn": "Chủ Tịch Hạ Viện hiện thời tên gì?",
+      "answer_vn": "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives.",
+      "question_es": "¿Cuál es el nombre del Presidente de la Cámara de Representantes ahora?",
+      "answer_es": "Visita uscis.gov/citizenship/testupdates para el nombre del Presidente de la Cámara de Representantes.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track_47.mp3"
+    },
+    {
+      "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+      "options": [
+        {
+          "answer": "Citizens seventeen (17) and older can vote.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Citizens by birth only can vote.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Citizens eighteen (18) and older can vote.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Only citizens with a job can vote.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["Citizens eighteen (18) and older (can vote).", "You don't have to pay (a poll tax) to vote.", "Any citizen can vote. (Women and men can vote.)", "A male citizen of any race (can vote)."],
+      "question_vn": "Có bốn tu chính án Hiến Pháp về việc ai có quyền bầu cử. Kể ra Một trong các thứ đó",
+      "answer_vn": [  "Công dân mười tám (18) tuổi và hơn (được đi bầu).",  "Không phải trả (thuế bầu cử) để được bầu.",  "Bất cứ công dân nào cũng được bầu (phụ nữ và nam giới đều được bầu).",  "Nam giới của bất cứ chủng tộc nào (cũng đều được bầu)."],
+      "question_es": "Hay cuatro enmiendas a la Constitución sobre quién puede votar. Describe una de ellas.",
+      "answer_es": ["Los ciudadanos de dieciocho (18) años en adelante (pueden votar).", "No tienes que pagar (un impuesto electoral) para votar.", "Cualquier ciudadano puede votar. (Las mujeres y los hombres pueden votar.)", "Un ciudadano varón de cualquier raza (puede votar)."],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2048.mp3"
+    },
+    {
+      "question": "What is one responsibility that is only for United States citizens?",
+      "options": [
+        {
+          "answer": "Vote in a federal election",
+          "isCorrect": true
+        },
+        {
+          "answer": "Vote in a state election",
+          "isCorrect": false
+        },
+        {
+          "answer": "Vote in a local election",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["serve on a jury", "vote in a federal election"],
+      "question_vn": "Một trong các bổn phận chỉ dành riêng cho công dân Hoa Kỳ là gì?*",
+      "answer_vn": ["phục vụ trong bồi thẩm đoàn", "đi bầu trong bầu cử liên bang"],
+      "question_es": "¿Cuál es una responsabilidad que es solo para ciudadanos de los Estados Unidos?",
+      "answer_es": ["servir en un jurado", "votar en una elección federal"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2049.mp3"
+    },
+    {
+      "question": "Name one right only for United States citizens.",
+      "options": [
+        {
+          "answer": "Run for federal office",
+          "isCorrect": true
+        },
+        {
+          "answer": "Going to school",
+          "isCorrect": false
+        },
+        {
+          "answer": "Owning a home",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["vote in a federal election", "run for federal office"],
+      "question_vn": "Cho biết một quyền của riêng công dân Hoa Kỳ",
+      "answer_vn": ["tham gia bầu cử cấp liên bang", "ứng cử chức vụ liên bang"],
+      "question_es": "Nombre un derecho que solo tienen los ciudadanos de los Estados Unidos.",
+      "answer_es": ["votar en una elección federal", "postularse para un cargo federal"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2050.mp3"
+    },
+    {
+      "question": "What are two rights of everyone living in the United States?",
+      "options": [
+        {
+          "answer": "Freedom to petition the government and freedom to disobey traffic laws.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Freedom of worship and freedom to make treaties with other countries.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Freedom of speech and freedom to run for president.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Freedom of speech and freedom of worship/religion.",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["freedom of expression", "freedom of speech", "freedom of assembly", "freedom to petition the government", "freedom of religion", "the right to bear arms"],
+      "question_vn": "Cho biết hai quyền của mỗi người sống ở Hoa Kỳ?",
+      "answer_vn": ["tự do phát biểu ý kiến", "tự do ngôn luận", "tự do hội họp", "tự do thỉnh nguyện chính quyền", "tự do thờ phượng", "quyền mang vũ khí tự vệ"],
+      "question_es": "¿Cuáles son dos derechos de todos los que viven en Estados Unidos?",
+      "answer_es": ["libertad de expresión", "libertad de palabra", "libertad de reunión", "derecho de petición al gobierno", "libertad de religión", "el derecho a portar armas"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track_51.mp3"
+    },
+    {
+      "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+      "options": [
+        {
+          "answer": "The United States.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The President.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Congress.",
+          "isCorrect": false
+        },
+        {
+          "answer": "The state where you live.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["the United States", "the flag"],
+      "question_vn": "Khi nói Lời Tuyên Thệ Trung Thành (Pledge of Allegiance), chúng ta chứng tỏ sự trung thành với cái gì?",
+      "answer_vn": ["Hoa Kỳ", "Lá Cờ"],
+      "question_es": "¿A qué mostramos lealtad cuando decimos el Juramento de Lealtad?",
+      "answer_es": ["los Estados Unidos", "la bandera"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2052.mp3"
+    },
+    {
+      "question": "What is one promise you make when you become a United States citizen?",
+      "options": [
+        {
+          "answer": "Disobey the laws of the United States",
+          "isCorrect": false
+        },
+        {
+          "answer": "Give up loyalty to the United States",
+          "isCorrect": false
+        },
+        {
+          "answer": "Be loyal to the United States",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["give up loyalty to other countries", "defend the Constitution and laws of the United States", "obey the laws of the United States", "serve in the U.S. military (if needed)", "serve (do important work for) the nation (if needed)", "be loyal to the United States"],
+      "question_vn": "Khi trở thành công dân Hoa Kỳ, một trong những lời hứa của bạn là gì?",
+      "answer_vn": ["từ bỏ sự trung thành với các quốc gia khác", "bảo vệ Hiến Pháp và luật lệ Hoa Kỳ", "tuân hành luật lệ của Hoa Kỳ", "phục vụ trong quân đội Hoa Kỳ (nếu cần)", "phục vụ (công việc quan trọng cho) Hoa Kỳ (nếu cần)", "trung thành với quốc gia Hoa Kỳ"],
+      "question_es": "¿Cuál es una promesa que haces cuando te conviertes en ciudadano de Estados Unidos?",
+      "answer_es": ["renunciar a la lealtad a otros países", "defender la Constitución y las leyes de los Estados Unidos", "obedecer las leyes de los Estados Unidos", "servir en las fuerzas armadas de EE. UU. (si es necesario)", "servir (hacer trabajos importantes para) a la nación (si es necesario)", "ser leal a los Estados Unidos"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2053.mp3"
+    },
+    {
+      "question": "How old do citizens have to be to vote for President?",
+      "options": [
+        {
+          "answer": "21",
+          "isCorrect": false
+        },
+        {
+          "answer": "18",
+          "isCorrect": true
+        },
+        {
+          "answer": "16",
+          "isCorrect": false
+        }
+      ],
+      "answer": "eighteen (18) and older",
+      "question_vn": "Công dân phải bao nhiêu tuổi mới được bầu Tổng Thống?*",
+      "answer_vn": "Mười Tám (18) và hơn",
+      "question_es": "¿Cuántos años deben tener los ciudadanos para votar por el Presidente?",
+      "answer_es": "dieciocho (18) años o más",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2054.mp3"
+    },
+    {
+      "question": "What are two ways that Americans can participate in their democracy?",
+      "options": [
+        {
+          "answer": "Write to a newspaper and call Senators and Representatives.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Give an elected official your opinion on an issue and join a community group.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Vote and join a civic group.",
+          "isCorrect": false
+        },
+        {
+          "answer": "All of these answers.",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["vote", "join a political party", "help with a campaign", "join a civic group", "join a community group", "give an elected official your opinion on an issue", "call Senators and Representatives", "publicly support or oppose an issue or policy", "run for office", "write to a newspaper"],
+      "question_vn": "Có hai cách công dân Hoa Kỳ có thể tham dự vào nền dân chủ là các cách nào?",
+      "answer_vn": ["bầu cử", "tham gia một đảng phái chính trị", "tham dự vào một cuộc vận động tranh cử", "tham dự vào một nhóm hoạt động công dân", "tham dự vào một nhóm hoạt động cộng đồng", "phát biểu ý kiến về một vấn đề với một vị dân cử", "gọi điện thoại cho nghị sĩ và dân biểu", "công khai ủng hộ hoặc phản đối một vấn đề hay chính sách nào đó", "tranh cử", "góp ý kiến trên một tờ báo"],
+      "question_es": "¿Cuáles son dos formas en que los estadounidenses pueden participar en su democracia?",
+      "answer_es": ["votar", "unirse a un partido político", "ayudar con una campaña", "unirse a un grupo cívico", "unirse a un grupo comunitario", "darle su opinión a un funcionario electo sobre un tema", "llamar a Senadores y Representantes", "apoyar u oponerse públicamente a un tema o política", "postularse para un cargo público", "escribir a un periódico"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2055.mp3"
+    },
+    {
+      "question": "When is the last day you can send in federal income tax forms?",
+      "options": [
+        {
+          "answer": "April 15th",
+          "isCorrect": true
+        },
+        {
+          "answer": "January 1st",
+          "isCorrect": false
+        },
+        {
+          "answer": "December 31st",
+          "isCorrect": false
+        }
+      ],
+      "answer": "April 15",
+      "question_vn": "Ngày cuối cùng có thể nạp mẫu khai thuế cho liên bang là?*",
+      "answer_vn": "15 Tháng Tư",
+      "question_es": "¿Cuándo es el último día en que puedes enviar los formularios federales de impuestos sobre la renta?",
+      "answer_es": "15 de abril",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2056.mp3"
+    },
+    {
+      "question": "When must all men register for the Selective Service?",
+      "options": [
+        {
+          "answer": "You do not have to",
+          "isCorrect": false
+        },
+        {
+          "answer": "At age 16",
+          "isCorrect": false
+        },
+        {
+          "answer": "At age 18",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["at age eighteen (18)", "between eighteen (18) and twenty-six (26)"],
+      "question_vn": "Khi nào tất cả nam giới phải ghi tên cho Sở Quân Vụ (Selective Service)?",
+      "answer_vn": ["ở tuổi mười tám (18)", "ở giữa tuổi mười tám (18) và hai mươi sáu (26"],
+      "question_es": "¿Cuándo deben registrarse todos los hombres para el Servicio Selectivo?",
+      "answer_es": ["a los dieciocho (18) años", "entre los dieciocho (18) y los veintiséis (26) años"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2057.mp3"
+    },
+    {
+      "question": "What is one reason colonists came to America?",
+      "options": [
+        {
+          "answer": "For the experience traveling across the ocean.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Freedom.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To join a civic group.",
+          "isCorrect": false
+        },
+        {
+          "answer": "None of these answers.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["freedom", "political liberty", "religious freedom", "economic opportunity", "practice their religion", "escape persecution"],
+      "question_vn": "Một trong những lý do khiến người di dân thời thuộc địa tới Mỹ Châu là gì?",
+      "answer_vn": ["tự do", "tự do chính trị", "tự do tôn giáo", "cơ hội kinh tế", "hành xử tôn giáo của mình", "tránh sự áp bức"],
+      "question_es": "¿Cuál es una razón por la que los colonos vinieron a América?",
+      "answer_es": ["libertad", "libertad política", "libertad religiosa", "oportunidad económica", "practicar su religión", "escapar de la persecución"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2058.mp3"
+    },
+    {
+      "question": "Who lived in America before the Europeans arrived?",
+      "options": [
+        {
+          "answer": "American Indians.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Floridians.",
+          "isCorrect": false
+        },
+        {
+          "answer": "No one.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Canadians.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["American Indians", "Native Americans"],
+      "question_vn": "Những ai sống tại Mỹ trước khi người Âu Châu tới?",
+      "answer_vn": [" người da đỏ Mỹ Châu", "thổ dân Mỹ Châu"],
+      "question_es": "¿Quiénes vivían en América antes de que llegaran los europeos?",
+      "answer_es": ["indígenas americanos", "nativos americanos"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2059.mp3"
+    },
+    {
+      "question": "What group of people was taken to America and sold as slaves?",
+      "options": [
+        {
+          "answer": "English.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Africans.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Canadians.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Dutch.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["Africans", "people from Africa"],
+      "question_vn": "Nhóm người nào được mang tới Mỹ Châu và bán làm nô lệ?",
+      "answer_vn": ["người Phi Châu", "người từ Phi Châu"],
+      "question_es": "¿Qué grupo de personas fue llevado a América y vendido como esclavos?",
+      "answer_es": ["africanos", "personas de África"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2060.mp3"
+    },
+    {
+      "question": "Why did the colonists fight the British?",
+      "options": [
+        {
+          "answer": "Because they didn't have self-government and because of high taxes",
+          "isCorrect": true
+        },
+        {
+          "answer": "Because the colonists wanted their ships",
+          "isCorrect": false
+        },
+        {
+          "answer": "Because the colonists wanted their weapons",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["because of high taxes (taxation without representation)", "because the British army stayed in their houses (boarding, quartering)", "because they didn't have self-government"],
+      "question_vn": "Tại sao những người di dân thời thuộc địa chống lại người Anh?",
+      "answer_vn": ["vì thuế má cao quá (phải đóng thuế mà không có người đại diện)", "vì quân đội Anh đồn trú trong nhà của họ (ở trọ, làm trại binh)", "vì người di dân thời thuộc địa không có chính quyền tự quản"],
+      "question_es": "¿Por qué lucharon los colonos contra los británicos?",
+      "answer_es": ["debido a los altos impuestos (impuestos sin representación)", "debido a que el ejército británico se quedó en sus casas (alojamiento, acuartelamiento)", "debido a que no tenían autogobierno"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2061.mp3"
+    },
+    {
+      "question": "Who wrote the Declaration of Independence?",
+      "options": [
+        {
+          "answer": "Abraham Lincoln.",
+          "isCorrect": false
+        },
+        {
+          "answer": "James Madison.",
+          "isCorrect": false
+        },
+        {
+          "answer": "George Washington.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Thomas Jefferson.",
+          "isCorrect": true
+        }
+      ],
+      "answer": "(Thomas) Jefferson",
+      "question_vn": "Ai viết Bản Tuyên Ngôn Độc Lập?",
+      "answer_vn": "(Thomas) Jefferson",
+      "question_es": "¿Quién escribió la Declaración de Independencia?",
+      "answer_es": "(Thomas) Jefferson",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2062.mp3"
+    },
+    {
+      "question": "When was the Declaration of Independence adopted?",
+      "options": [
+        {
+          "answer": "July 4, 1776",
+          "isCorrect": true
+        },
+        {
+          "answer": "July 4, 1786",
+          "isCorrect": false
+        },
+        {
+          "answer": "December 1786",
+          "isCorrect": false
+        }
+      ],
+      "answer": "July 4, 1776",
+      "question_vn": "Bản Tuyên Ngôn Độc Lập được chấp nhận lúc nào?",
+      "answer_vn": "4 Tháng Bảy 1776",
+      "question_es": "¿Cuándo se adoptó la Declaración de Independencia?",
+      "answer_es": "4 de julio de 1776",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2063.mp3"
+    },
+    {
+      "question": "There were 13 original states. Name three.",
+      "options": [
+        {
+          "answer": "New York, Massachusetts, Delaware",
+          "isCorrect": true
+        },
+        {
+          "answer": "Florida, Arkansas, Alabama",
+          "isCorrect": false
+        },
+        {
+          "answer": "Mississippi, New York, Georgia",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["New Hampshire", "Massachusetts", "Rhode Island", "Connecticut", "New York", "New Jersey", "Pennsylvania", "Delaware", "Maryland", "Virginia", "North Carolina", "South Carolina", "Georgia"],
+      "question_vn": "Có 13 tiểu bang nguyên thủy. Cho biết ba tiểu bang",
+      "answer_vn": ["New Hampshire", "Massachusetts", "Rhode Island", "Connecticut", "New York", "New Jersey", "Pennsylvania", "Delaware", "Maryland", "Virginia", "North Carolina", "South Carolina", "Georgia"],
+      "question_es": "Había 13 estados originales. Nombra tres.",
+      "answer_es": ["New Hampshire", "Massachusetts", "Rhode Island", "Connecticut", "Nueva York", "Nueva Jersey", "Pensilvania", "Delaware", "Maryland", "Virginia", "Carolina del Norte", "Carolina del Sur", "Georgia"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2064.mp3"
+    },
+    {
+      "question": "What happened at the Constitutional Convention?",
+      "options": [
+        {
+          "answer": "The Founding Fathers disbanded the Constitution",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Constitution was written",
+          "isCorrect": true
+        },
+        {
+          "answer": "The Declaration of Independence was written",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["The Constitution was written.", "The Founding Fathers wrote the Constitution."],
+      "question_vn": "Việc gì xảy ra tại Đại Hội Lập Hiến (Constitutional Convention)?",
+      "answer_vn": ["Soạn thảo Hiến Pháp.", "Các nhà lập quốc soạn thảo Hiến Pháp"],
+      "question_es": "¿Qué sucedió en la Convención Constitucional?",
+      "answer_es": ["Se escribió la Constitución.", "Los Padres Fundadores escribieron la Constitución."],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2065.mp3"
+    },
+    {
+      "question": "When was the Constitution written?",
+      "options": [
+        {
+          "answer": "1776",
+          "isCorrect": false
+        },
+        {
+          "answer": "1777",
+          "isCorrect": false
+        },
+        {
+          "answer": "1787",
+          "isCorrect": true
+        }
+      ],
+      "answer": "1787",
+      "question_vn": "Hiến Pháp được soạn thảo khi nào?",
+      "answer_vn": "1787",
+      "question_es": "¿Cuándo se escribió la Constitución?",
+      "answer_es": "1787",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2066.mp3"
+    },
+    {
+      "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+      "options": [
+        {
+          "answer": "George Washington",
+          "isCorrect": false
+        },
+        {
+          "answer": "Thomas Jefferson",
+          "isCorrect": false
+        },
+        {
+          "answer": "Alexander Hamilton",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["(James) Madison", "(Alexander) Hamilton", "(John) Jay", "Publius"],
+      "question_vn": "Các bài tham luận gọi là Federalist Papers có mục đích hỗ trợ việc thông qua Hiến Pháp Hoa Kỳ. Kể tên một trong những người viết tham luận",
+      "answer_vn": ["(James) Madison", "(Alexander) Hamilton", "(John) Jay", "Publius"],
+      "question_es": "Los Documentos Federalistas respaldaron la aprobación de la Constitución de EE. UU. Nombra a uno de los escritores.",
+      "answer_es": ["(James) Madison", "(Alexander) Hamilton", "(John) Jay", "Publius"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2067.mp3"
+    },
+    {
+      "question": "What is one thing Benjamin Franklin is famous for?",
+      "options": [
+        {
+          "answer": "Youngest member of the Constitutional Convention.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Inventor of the airplane.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Third President of the United States.",
+          "isCorrect": false
+        },
+        {
+          "answer": "U.S. diplomat.",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["U.S. diplomat", "oldest member of the Constitutional Convention", "first Postmaster General of the United States", "writer of 'Poor Richard's Almanac'", "started the first free libraries"],
+      "question_vn": "Một việc gì làm Benjamin Franklin nổi tiếng?",
+      "answer_vn": ["nhà ngoại giao Hoa Kỳ", "thành viên già nhất của Đại Hội Lập Hiến", "Tổng Giám Đốc Bưu Điện đầu tiên của Hoa Kỳ", "người viết cuốn lịch “Poor Richard’s Almanac”", "khởi công xây các thư viện miễn phí đầu tiên của Hoa Kỳ"],
+      "question_es": "¿Por qué es famoso Benjamin Franklin?",
+      "answer_es": ["diplomático de EE. UU.", "miembro más joven de la Convención Constitucional", "primer Director General de Correos de los Estados Unidos", "escritor del almanaque 'Poor Richard'", "comenzó las primeras bibliotecas gratuitas"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2068.mp3"
+    },
+    {
+      "question": "Who is the 'Father of Our Country'?",
+      "options": [
+        {
+          "answer": "George Washington.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Thomas Jefferson.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Abraham Lincoln.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Patrick Henry.",
+          "isCorrect": false
+        }
+      ],
+      "answer": "(George) Washington",
+      "question_vn": "Ai được gọi là cha đẻ của nước Mỹ?",
+      "answer_vn": "(George) Washington",
+      "question_es": "¿Quién es el 'Padre de Nuestro País'?",
+      "answer_es": "(George) Washington",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2069.mp3"
+    },
+    {
+      "question": "Who was the first President?",
+      "options": [
+        {
+          "answer": "George Washington",
+          "isCorrect": true
+        },
+        {
+          "answer": "Benjamin Franklin",
+          "isCorrect": false
+        },
+        {
+          "answer": "Abraham Lincoln",
+          "isCorrect": false
+        }
+      ],
+      "answer": "(George) Washington",
+      "question_vn": "Ai là Tổng Thống đầu tiên?*",
+      "answer_vn": "(George) Washington",
+      "question_es": "¿Quién fue el primer presidente?",
+      "answer_es": "(George) Washington",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2070.mp3"
+    },
+    {
+      "question": "What territory did the United States buy from France in 1803?",
+      "options": [
+        {
+          "answer": "The Louisiana Territory",
+          "isCorrect": true
+        },
+        {
+          "answer": "The Northwest Territory",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Alaska Territory",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["the Louisiana Territory", "Louisiana"],
+      "question_vn": "Hoa Kỳ mua lãnh thổ nào của Pháp vào năm 1803?",
+      "answer_vn": ["Lãnh Thổ Louisiana", "Louisiana"],
+      "question_es": "¿Qué territorio compró Estados Unidos a Francia en 1803?",
+      "answer_es": ["el Territorio de Louisiana", "Louisiana"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2071.mp3"
+    },
+    {
+      "question": "Name one war fought by the United States in the 1800s.",
+      "options": [
+        {
+          "answer": "Vietnam War",
+          "isCorrect": false
+        },
+        {
+          "answer": "Civil War",
+          "isCorrect": true
+        },
+        {
+          "answer": "Revolutionary War",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["War of 1812", "Mexican-American War", "Civil War", "Spanish-American War"],
+      "question_vn": "Nói tên một trong những cuộc chiến Hoa Kỳ tham dự thời 1800.",
+      "answer_vn": [  "Chiến tranh 1812",  "Chiến tranh Hoa Kỳ-Mễ-Tây-Cơ (Mexico)",  "Nội chiến",  "Chiến tranh Hoa Kỳ-Tây-Ban-Nha"],
+      "question_es": "Nombre una guerra en la que luchó Estados Unidos en el siglo XIX.",
+      "answer_es": ["Guerra de 1812", "Guerra entre Estados Unidos y México", "Guerra Civil", "Guerra Hispanoamericana"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2072.mp3"
+    },
+    {
+      "question": "Name the U.S. war between the North and the South.",
+      "options": [
+        {
+          "answer": "The Civil War or the War between the States",
+          "isCorrect": true
+        },
+        {
+          "answer": "The Spanish-American War",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Mexican War",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["the Civil War", "the War between the States"],
+      "question_vn": "Tên gọi của cuộc chiến trên đất Hoa Kỳ giữa miền Bắc và miền Nam là gì.",
+      "answer_vn": [" Nội chiến", "Chiến tranh giữa các Tiểu Bang"],
+      "question_es": "Nombre de la guerra de Estados Unidos entre el Norte y el Sur.",
+      "answer_es": ["Guerra Civil o Guerra entre los Estados"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2073.mp3"
+    },
+    {
+      "question": "Name one problem that led to the Civil War.",
+      "options": [
+        {
+          "answer": "Territories",
+          "isCorrect": false
+        },
+        {
+          "answer": "Slavery",
+          "isCorrect": true
+        },
+        {
+          "answer": "Land acquisitions",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["slavery", "economic reasons", "states' rights"],
+      "question_vn": "Cho biết một vấn đề đưa tới cuộc nội chiến.",
+      "answer_vn": [  "vấn đề nô lệ",  "các vấn đề kinh tế",  "quyền của các tiểu bang"],
+      "question_es": "Nombre un problema que llevó a la Guerra Civil.",
+      "answer_es": ["esclavitud", "razones económicas", "derechos de los estados"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2074.mp3"
+    },
+    {
+      "question": "What was one important thing that Abraham Lincoln did?",
+      "options": [
+        {
+          "answer": "Moved the location of the White House",
+          "isCorrect": false
+        },
+        {
+          "answer": "Signed the Declaration of Independence",
+          "isCorrect": false
+        },
+        {
+          "answer": "Freed the slaves",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["freed the slaves (Emancipation Proclamation)", "saved (or preserved) the Union", "led the United States during the Civil War"],
+      "question_vn": "Một điều quan trọng mà Abraham Lincoln làm là gì?*",
+      "answer_vn": [  "giải phóng nô lệ (Tuyên Ngôn Giải Phóng)",  "giữ gìn (hoặc bảo tồn) đoàn kết Quốc Gia",  "lãnh đạo Hoa Kỳ trong Cuộc Nội Chiến"],
+      "question_es": "¿Qué hizo Abraham Lincoln que fue importante?",
+      "answer_es": ["liberó a los esclavos (Proclamación de Emancipación)", "salvó (o preservó) la Unión", "dirigió a Estados Unidos durante la Guerra Civil"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2075.mp3"
+    },
+    {
+      "question": "What did the Emancipation Proclamation do?",
+      "options": [
+        {
+          "answer": "Divided the North and South land boundaries",
+          "isCorrect": false
+        },
+        {
+          "answer": "Gave the South its own slaves",
+          "isCorrect": false
+        },
+        {
+          "answer": "Freed the slaves",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["freed the slaves", "freed slaves in the Confederacy", "freed slaves in the Confederate states", "freed slaves in most Southern states"],
+      "question_vn": "Tuyên Ngôn Giải Phóng làm gì?",
+      "answer_vn": [  "giải phóng nô lệ",  "giải phóng nô lệ thuộc tập hợp (nhóm) các tiểu bang ly khai miền Nam",  "giải phóng nô lệ ở các tiểu bang miền Nam",  "giải phóng nô lệ ở đa số các tiểu bang miền Nam"],
+      "question_es": "¿Qué hizo la Proclamación de Emancipación?",
+      "answer_es": ["liberó a los esclavos", "liberó a los esclavos en la Confederación", "liberó a los esclavos en los estados Confederados", "liberó a los esclavos en la mayoría de los estados del Sur"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2076.mp3"
+    },
+    {
+      "question": "What did Susan B. Anthony do?",
+      "options": [
+        {
+          "answer": "Made the first flag of the United States.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Founded the Red Cross.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Was the first woman elected to the House of Representatives.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Fought for women’s rights.",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["fought for women's rights", "fought for civil rights"],
+      "question_vn": "Bà Susan B. Anthony làm gì?",
+      "answer_vn": [" tranh đấu cho quyền phụ nữ", " tranh đấu cho dân quyền"],
+      "question_es": "¿Qué hizo Susan B. Anthony?",
+      "answer_es": ["luchó por los derechos de las mujeres", "luchó por los derechos civiles"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2077.mp3"
+    },
+    {
+      "question": "Name one war fought by the United States in the 1900s.",
+      "options": [
+        {
+          "answer": "Civil War",
+          "isCorrect": false
+        },
+        {
+          "answer": "World War II",
+          "isCorrect": true
+        },
+        {
+          "answer": "Mexican-American War",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["World War I", "World War II", "Korean War", "(Persian) Gulf War"],
+      "question_vn": "Cho biết một cuộc chiến mà Hoa Kỳ tham dự vào thập niên 1900.*",
+      "answer_vn": [  "Thế Chiến Thứ Nhất",  "Thế Chiến Thứ Hai",  "Chiến Tranh Cao Ly (Triều Tiên)",  "Chiến Tranh Việt Nam",  "Chiến tranh Vùng Vịnh (Ba Tư)"],
+      "question_es": "Nombre una guerra en la que luchó Estados Unidos en el siglo XX.",
+      "answer_es": ["Primera Guerra Mundial", "Segunda Guerra Mundial", "Guerra de Corea", "Guerra del Golfo (Persia)"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2078.mp3"
+    },
+    {
+      "question": "Who was President during World War I?",
+      "options": [
+        {
+          "answer": "Franklin Roosevelt",
+          "isCorrect": false
+        },
+        {
+          "answer": "Woodrow Wilson",
+          "isCorrect": true
+        },
+        {
+          "answer": "Theodore Roosevelt",
+          "isCorrect": false
+        }
+      ],
+      "answer": "(Woodrow) Wilson",
+      "question_vn": "Ai là Tổng Thống trong Thế Chiến Thứ Nhất?",
+      "answer_vn": "(Woodrow) Wilson",
+      "question_es": "¿Quién fue el presidente durante la Primera Guerra Mundial?",
+      "answer_es": "(Woodrow) Wilson",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2079.mp3"
+    },
+    {
+      "question": "Who was President during the Great Depression and World War II?",
+      "options": [
+        {
+          "answer": "Franklin Roosevelt",
+          "isCorrect": true
+        },
+        {
+          "answer": "Woodrow Wilson",
+          "isCorrect": false
+        },
+        {
+          "answer": "Lyndon Johnson",
+          "isCorrect": false
+        }
+      ],
+      "answer": "(Franklin) Roosevelt",
+      "question_vn": "Ai là Tổng Thống trong thời kỳ Khủng Hoảng Kinh Tế và Thế Chiến Thứ Hai? ",
+      "answer_vn": "(Franklin) Roosevelt",
+      "question_es": "¿Quién fue presidente durante la Gran Depresión y la Segunda Guerra Mundial?",
+      "answer_es": "(Franklin) Roosevelt",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2080.mp3"
+    },
+    {
+      "question": "Who did the United States fight in World War II?",
+      "options": [
+        {
+          "answer": "Italy, Japan, Russia",
+          "isCorrect": false
+        },
+        {
+          "answer": "Germany, Japan, Italy",
+          "isCorrect": true
+        },
+        {
+          "answer": "Japan, Italy, France",
+          "isCorrect": false
+        }
+      ],
+      "answer": "Japan, Germany, and Italy",
+      "question_vn": "Trong Thế Chiến Thứ Hai, Hoa Kỳ chiến đấu chống các nước nào?",
+      "answer_vn": "Nhật Bản, Đức và Ý",
+      "question_es": "¿Contra qué países luchó Estados Unidos en la Segunda Guerra Mundial?",
+      "answer_es": "Japón, Alemania e Italia",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2081.mp3"
+    },
+    {
+      "question": "Before he was President, Eisenhower was a general. What war was he in?",
+      "options": [
+        {
+          "answer": "World War II",
+          "isCorrect": true
+        },
+        {
+          "answer": "Korean War",
+          "isCorrect": false
+        },
+        {
+          "answer": "World War I",
+          "isCorrect": false
+        }
+      ],
+      "answer": "World War II",
+      "question_vn": "Trước khi trở thành Tổng Thống, Eisenhower là tướng lãnh. Ông ta đánh trận nào?",
+      "answer_vn": "World War II",
+      "question_es": "Antes de ser presidente, Eisenhower fue un general. ¿En qué guerra estuvo?",
+      "answer_es": "Segunda Guerra Mundial",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2082.mp3"
+    },
+    {
+      "question": "During the Cold War, what was the main concern of the United States?",
+      "options": [
+        {
+          "answer": "Democracy",
+          "isCorrect": false
+        },
+        {
+          "answer": "Communism",
+          "isCorrect": true
+        },
+        {
+          "answer": "Capitalism",
+          "isCorrect": false
+        }
+      ],
+      "answer": "Communism",
+      "question_vn": "Trong thời kỳ Chiến Tranh Lạnh, quan tâm chính của Hoa Kỳ là gì?",
+      "answer_vn": "Communism",
+      "question_es": "Durante la Guerra Fría, ¿cuál fue la principal preocupación de Estados Unidos?",
+      "answer_es": "Comunismo",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2083.mp3"
+    },
+    {
+      "question": "What movement tried to end racial discrimination?",
+      "options": [
+        {
+          "answer": "Suffrage movement",
+          "isCorrect": false
+        },
+        {
+          "answer": "Abolitionist movement",
+          "isCorrect": false
+        },
+        {
+          "answer": "Civil rights movement (correct)",
+          "isCorrect": true
+        }
+      ],
+      "answer": "civil rights (movement)",
+      "question_vn": "Phong trào nào tìm cách chấm dứt sự phân biệt chủng tộc?",
+      "answer_vn": "(phong trào) dân quyền",
+      "question_es": "¿Qué movimiento intentó acabar con la discriminación racial?",
+      "answer_es": "Movimiento por los derechos civiles",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2084.mp3"
+    },
+    {
+      "question": "What did Martin Luther King, Jr. do?",
+      "options": [
+        {
+          "answer": "Became a U.S. Senator.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Fought for civil rights.",
+          "isCorrect": true
+        },
+        {
+          "answer": "Fought for women’s suffrage.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Ran for President of the United States.",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["fought for civil rights", "worked for equality for all Americans"],
+      "question_vn": "Martin Luther King, Jr. đã làm gì?*",
+      "answer_vn": ["tranh đấu cho dân quyền", "hoạt động nhằm mang lại bình đẳng cho mọi người Mỹ"],
+      "question_es": "¿Qué hizo Martin Luther King, Jr.?",
+      "answer_es": ["luchó por los derechos civiles", "trabajó por la igualdad para todos los estadounidenses"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2085.mp3"
+    },
+    {
+      "question": "What major event happened on September 11, 2001, in the United States?",
+      "options": [
+        {
+          "answer": "The accident at Three Mile Island Nuclear Power Plant occurred.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Hurricane Andrew struck the United States.",
+          "isCorrect": false
+        },
+        {
+          "answer": "Terrorists attacked the United States.",
+          "isCorrect": true
+        },
+        {
+          "answer": "The Japanese attacked Pearl Harbor.",
+          "isCorrect": false
+        }
+      ],
+      "answer": "Terrorists attacked the United States.",
+      "question_vn": "Biến cố lớn lao nào xảy ra vào ngày 11 tháng 9 năm 2001 tại Hoa Kỳ?",
+      "answer_vn": "Bọn khủng bố tấn công Hoa Kỳ.",
+      "question_es": "¿Qué evento importante ocurrió el 11 de septiembre de 2001 en Estados Unidos?",
+      "answer_es": "Los terroristas atacaron Estados Unidos.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2086.mp3"
+    },
+    {
+      "question": "Name one American Indian tribe in the United States.",
+      "options": [
+        {
+          "answer": "Aztec",
+          "isCorrect": false
+        },
+        {
+          "answer": "Navajo",
+          "isCorrect": true
+        },
+        {
+          "answer": "Mayan",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["Cherokee", "Navajo", "Sioux", "Chippewa", "Choctaw", "Pueblo", "Apache", "Iroquois", "Creek", "Blackfeet", "Seminole", "Cheyenne", "Arawak", "Shawnee", "Mohegan", "Huron", "Oneida", "Lakota", "Crow", "Teton", "Hopi", "Inuit"],
+      "question_vn": "Kể tên một bộ lạc da đỏ tại Mỹ.",
+      "answer_vn": ["Cherokee", "Navajo", "Sioux", "Chippewa", "Choctaw", "Pueblo", "Apache", "Iroquois", "Creek", "Blackfeet", "Seminole", "Cheyenne", "Arawak", "Shawnee", "Mohegan", "Huron", "Oneida", "Lakota", "Crow", "Teton", "Hopi", "Inuit"],
+      "question_es": "Nombre una tribu de indígenas americanos en Estados Unidos.",
+      "answer_es": ["Cherokees", "Navajos", "Sioux", "Chippewas", "Choctaw", "Pueblo", "Apache", "Iroqueses", "Creek", "Blackfeet", "Seminole", "Cheyennes", "Arawaks", "Shawnees", "Mohegans", "Hurons", "Oneidas", "Lakotas", "Crows", "Tetons", "Hopi", "Inuit"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2087.mp3"
+    },
+    {
+      "question": "Name one of the two longest rivers in the United States.",
+      "options": [
+        {
+          "answer": "Red River",
+          "isCorrect": false
+        },
+        {
+          "answer": "Missouri River",
+          "isCorrect": true
+        },
+        {
+          "answer": "Colorado River",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["Missouri (River)", "Mississippi (River)"],
+      "question_vn": "Cho biết một trong hai con sông dài nhất ở Hoa Kỳ.",
+      "answer_vn": ["(Sông) Missouri", "(Sông) Mississippi"],
+      "question_es": "Nombre uno de los dos ríos más largos de Estados Unidos.",
+      "answer_es": ["(Río) Missouri", "(Río) Mississippi"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2088.mp3"
+    },
+    {
+      "question": "What ocean is on the West Coast of the United States?",
+      "options": [
+        {
+          "answer": "Atlantic Ocean",
+          "isCorrect": false
+        },
+        {
+          "answer": "Arctic Ocean",
+          "isCorrect": false
+        },
+        {
+          "answer": "Pacific Ocean",
+          "isCorrect": true
+        }
+      ],
+      "answer": "Pacific (Ocean)",
+      "question_vn": "Biển nào ở bờ biển phía Tây Hoa Kỳ?",
+      "answer_vn": "(Thái-Bình-Dương) Pacific (Ocean)",
+      "question_es": "¿Qué océano está en la costa oeste de Estados Unidos?",
+      "answer_es": "(Océano) Pacífico",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2089.mp3"
+    },
+    {
+      "question": "What ocean is on the East Coast of the United States?",
+      "options": [
+        {
+          "answer": "Pacific Ocean",
+          "isCorrect": false
+        },
+        {
+          "answer": "Atlantic Ocean",
+          "isCorrect": true
+        },
+        {
+          "answer": "Southern Ocean",
+          "isCorrect": false
+        }
+      ],
+      "answer": "Atlantic (Ocean)",
+      "question_vn": "Biển nào ở bờ biển phía Đông Hoa Kỳ?",
+      "answer_vn": "(Đại-Tây-Dương) Atlantic (Ocean)",
+      "question_es": "¿Qué océano está en la costa este de Estados Unidos?",
+      "answer_es": "(Océano) Atlántico",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2090.mp3"
+    },
+    {
+      "question": "Name one U.S. territory.",
+      "options": [
+        {
+          "answer": "Dominican Republic",
+          "isCorrect": false
+        },
+        {
+          "answer": "Alaska",
+          "isCorrect": false
+        },
+        {
+          "answer": "Guam",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["Puerto Rico", "U.S. Virgin Islands", "American Samoa", "Northern Mariana Islands", "Guam"],
+      "question_vn": "Cho biết một lãnh thổ hải ngoại của Hoa Kỳ.",
+      "answer_vn": ["Puerto Rico", "Quần Đảo Virgin", "Đảo Samoa", "Quần Đảo Bắc Mariana", "Đảo Guam"],
+      "question_es": "Nombre uno de los territorios de Estados Unidos.",
+      "answer_es": ["Puerto Rico", "Islas Vírgenes de los Estados Unidos", "Samoa Americana", "Islas Marianas del Norte", "Guam"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2091.mp3"
+    },
+    {
+      "question": "Name one state that borders Canada.",
+      "options": [
+        {
+          "answer": "Massachusetts",
+          "isCorrect": false
+        },
+        {
+          "answer": "Maine",
+          "isCorrect": true
+        },
+        {
+          "answer": "South Dakota",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["Maine", "New Hampshire", "Vermont", "New York", "Pennsylvania", "Ohio", "Michigan", "Minnesota", "North Dakota", "Montana", "Idaho", "Washington", "Alaska"],
+      "question_vn": "Cho biết một trong những tiểu bang ráp ranh Gia-Nã-Đại.",
+      "answer_vn": ["Maine", "New Hampshire", "Vermont", "New York", "Pennsylvania", "Ohio", "Michigan", "Minnesota", "North Dakota", "Montana", "Idaho", "Washington", "Alaska"],
+      "question_es": "Nombre uno de los estados que colindan con Canadá.",
+      "answer_es": ["Maine", "Nuevo Hampshire", "Vermont", "Nueva York", "Pensilvania", "Ohio", "Michigan", "Minnesota", "Dakota del Norte", "Montana", "Idaho", "Washington", "Alaska"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2092.mp3"
+    },
+    {
+      "question": "Name one state that borders Mexico.",
+      "options": [
+        {
+          "answer": "Texas",
+          "isCorrect": true
+        },
+        {
+          "answer": "Colorado",
+          "isCorrect": false
+        },
+        {
+          "answer": "Florida",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["California", "Arizona", "New Mexico", "Texas"],
+      "question_vn": "Cho biết một trong những tiểu bang ráp ranh Mễ-Tây-Cơ.",
+      "answer_vn": ["California", "Arizona", "New Mexico", "Texas"],
+      "question_es": "Nombre uno de los estados que colindan con México.",
+      "answer_es": ["California", "Arizona", "Nuevo México", "Texas"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2093.mp3"
+    },
+    {
+      "question": "What is the capital of the United States?",
+      "options": [
+        {
+          "answer": "Washington D.C.",
+          "isCorrect": true
+        },
+        {
+          "answer": "New York",
+          "isCorrect": false
+        },
+        {
+          "answer": "Washington",
+          "isCorrect": false
+        }
+      ],
+      "answer": "Washington, D.C.",
+      "question_vn": "Thủ đô của Hoa Kỳ tên gì?*",
+      "answer_vn": "Washington, D.C",
+      "question_es": "¿Cuál es la capital de Estados Unidos?",
+      "answer_es": "Washington, D.C.",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2094.mp3"
+    },
+    {
+      "question": "Where is the Statue of Liberty?",
+      "options": [
+        {
+          "answer": "Washington D.C.",
+          "isCorrect": false
+        },
+        {
+          "answer": "New York Harbor",
+          "isCorrect": true
+        },
+        {
+          "answer": "The Ohio River",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["New York (Harbor)", "Liberty Island"],
+      "question_vn": "Tượng Nữ Thần Tự Do ở đâu?*",
+      "answer_vn": ["New York (Harbor)", "Đảo Liberty Island"],
+      "question_es": "¿Dónde está la Estatua de la Libertad?",
+      "answer_es": ["El puerto de Nueva York", "La Isla de la Libertad"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2095.mp3"
+    },
+    {
+      "question": "Why does the flag have 13 stripes?",
+      "options": [
+        {
+          "answer": "Because there were 13 signers of the Declaration of Independence",
+          "isCorrect": false
+        },
+        {
+          "answer": "One for each of the first thirteen Presidents",
+          "isCorrect": false
+        },
+        {
+          "answer": "Because there were originally 13 colonies",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["because there were 13 original colonies", "because the stripes represent the original colonies"],
+      "question_vn": "Tại sao lá cờ Hoa Kỳ có 13 lằn gạch?",
+      "answer_vn": ["bởi vì đã có 13 thuộc địa nguyên thủy", "bởi vì các lằn này tượng trưng cho 13 thuộc địa nguyên thủy"],
+      "question_es": "¿Por qué la bandera tiene 13 franjas?",
+      "answer_es": ["porque había 13 colonias originales", "porque las franjas representan las colonias originales"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2096.mp3"
+    },
+    {
+      "question": "Why does the flag have 50 stars?",
+      "options": [
+        {
+          "answer": "One star for each President",
+          "isCorrect": false
+        },
+        {
+          "answer": "One star for each signer of the Declaration of Independence",
+          "isCorrect": false
+        },
+        {
+          "answer": "One star for each state",
+          "isCorrect": true
+        }
+      ],
+      "answer": ["because there is one star for each state", "because each star represents a state", "because there are 50 states"],
+      "question_vn": "Tại sao lá cờ Hoa Kỳ có 50 ngôi sao?*",
+      "answer_vn": ["bởi vì mỗi tiểu bang có một ngôi sao", "bởi vì mỗi ngôi sao tượng trưng cho một tiểu bang", "bởi vì có 50 tiểu bang"],
+      "question_es": "¿Por qué la bandera tiene 50 estrellas?",
+      "answer_es": ["porque hay una estrella por cada estado", "porque cada estrella representa un estado", "porque hay 50 estados"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2097.mp3"
+    },
+    {
+      "question": "What is the name of the national anthem?",
+      "options": [
+        {
+          "answer": "America Forever",
+          "isCorrect": false
+        },
+        {
+          "answer": "America The Beautiful",
+          "isCorrect": false
+        },
+        {
+          "answer": "The Star-Spangled Banner",
+          "isCorrect": true
+        }
+      ],
+      "answer": "The Star-Spangled Banner",
+      "question_vn": "Tựa của bài quốc ca Hoa Kỳ là gì?",
+      "answer_vn": "The Star-Spangled Banner",
+      "question_es": "¿Cuál es el nombre del himno nacional?",
+      "answer_es": "La bandera con estrellas",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2098.mp3"
+    },
+    {
+      "question": "When do we celebrate Independence Day?",
+      "options": [
+        {
+          "answer": "January 1st",
+          "isCorrect": false
+        },
+        {
+          "answer": "June 30th",
+          "isCorrect": false
+        },
+        {
+          "answer": "July 4th",
+          "isCorrect": true
+        }
+      ],
+      "answer": "July 4",
+      "question_vn": "Ngày nào là ngày Lễ Độc Lập?*",
+      "answer_vn": "4 Tháng Bảy",
+      "question_es": "¿Cuándo celebramos el Día de la Independencia?",
+      "answer_es": "4 de julio",
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%2099.mp3"
+    },
+    {
+      "question": "Name two national U.S. holidays.",
+      "options": [
+        {
+          "answer": "New Year's Day, Presidents' Day",
+          "isCorrect": true
+        },
+        {
+          "answer": "President's Day, St. Patrick's Day",
+          "isCorrect": false
+        },
+        {
+          "answer": "Christmas, Easter",
+          "isCorrect": false
+        }
+      ],
+      "answer": ["New Year's Day", "Martin Luther King, Jr. Day", "Presidents' Day", "Memorial Day", "Independence Day", "Labor Day", "Columbus Day", "Veterans Day", "Thanksgiving", "Christmas"],
+      "question_vn": "Cho biết hai ngày lễ quốc gia của Hoa Kỳ.",
+      "answer_vn": [ "Tết Tây", "Ngày Sinh của Martin Luther King, Jr.", "Ngày Các Tổng Thống", "Lễ Chiến Sĩ Trận Vong (Memorial Day)", "Lễ Độc Lập (Independence Day)", "Lễ Lao Động (Labor Day)", "Ngày Tưởng Niệm Columbus", "Ngày Cựu Chiến Binh (Veterans Day)", "Lễ Tạ Ơn (Thanksgiving)", "Lễ Giáng Sinh"],
+      "question_es": "Nombre dos días festivos nacionales de Estados Unidos.",
+      "answer_es": ["Año Nuevo", "Día de Martin Luther King, Jr.", "Día de los Presidentes", "Día Conmemorativo", "Día de la Independencia", "Día del Trabajo", "Día de Colón", "Día de los Veteranos", "Día de Acción de Gracias", "Navidad"],
+      "voice": "https://www.uscis.gov/sites/default/files/document/audio/Track%20100.mp3"
+    }
+  ]
+}

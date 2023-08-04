@@ -1,0 +1,99 @@
+{
+  "questions": [
+    {
+      "group": "Weather",
+      "items": [
+        {
+          "Question": "How's the weather today?",
+          "Answer": "Sample response: it is a nice sunny day",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-1.mp3"
+        },
+        {
+          "Question": "Is it raining outside?",
+          "Answer": "Sample response: No it is not raining right now",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-2.mp3"
+        },
+        {
+          "Question": "How do you like the weather today?",
+          "Answer": "Sample response: It is too cold for me!",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-3.mp3"
+        }
+      ]
+    },
+    {
+      "group": "Transportation",
+      "items": [
+        {
+          "Question": "How did you come here today?",
+          "Answer": "Sample response: I took the bus",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-4.mp3"
+        },
+        {
+          "Question": "Did it take you very long to get here?",
+          "Answer": "Sample response: Yes, it took me two hours",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-5.mp3"
+        },
+        {
+          "Question": "Did it take you long to find a parking spot?",
+          "Answer": "Sample response: No, I found a parking spot pretty quickly",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-6.mp3"
+        },
+        {
+          "Question": "Did you have any problems getting here?",
+          "Answer": "Sample response: Yes, I took the wrong turn a couple of times",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-7.mp3"
+        },
+        {
+          "Question": "How was the traffic?",
+          "Answer": "Sample response: It was flowing nicely",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-8.mp3"
+        },
+        {
+          "Question": "Did you come by bus or by car?",
+          "Answer": "Sample response: I came by bus",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-9.mp3"
+        }
+      ]
+    },
+    {
+      "group": "General",
+      "items": [
+        {
+          "Question": "Have you been waiting a long time to talk to me today?",
+          "Answer": "Sample response: I have been waiting for 30 minutes",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-10.mp3"
+        },
+        {
+          "Question": "How was your week-end?",
+          "Answer": "Sample response: My week-end was great, I spent a lot of time with my family",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-11.mp3"
+        },
+        {
+          "Question": "How are you?",
+          "Answer": "Sample response: I am doing great, thank you! And you?",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-12.mp3"
+        },
+        {
+          "Question": "Did you study for the citizenship test?",
+          "Answer": "Sample response: Yes, I studied every day for the past month",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-13.mp3"
+        },
+        {
+          "Question": "Do you feel well prepared for your test today?",
+          "Answer": "Sample response: Yes",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-14.mp3"
+        },
+        {
+          "Question": "Do you have any questions?",
+          "Answer": "Sample response: Yes, I was wondering how long is the interview?",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-15.mp3"
+        },
+        {
+          "Question": "Do you have plans for the week-end?",
+          "Answer": "Sample response: Yes, I plan to go out to the movies with my friend",
+          "voice": "https://uscitizenshipsupport.com/wp-content/uploads/audio_files/Small-talk-16.mp3"
+        }
+      ]
+    }
+  ]
+}
