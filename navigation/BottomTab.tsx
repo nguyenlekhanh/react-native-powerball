@@ -3,6 +3,7 @@ import { View, Text } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '../screens/HomeScreen';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import HomeStack from '../screens/HomeStack';
 
 
 const Tab = createBottomTabNavigator();
@@ -33,7 +34,7 @@ const MainBottomTabNavigator = () => {
         tabBarLabelStyle: { fontSize: 16, fontWeight:"bold" }
       })}
     >
-      <Tab.Screen name="Home" component={HomeScreen} />
+      <Tab.Screen name="HomeStack" component={HomeStack} />
       <Tab.Screen name="Settings" component={SettingsScreen} />
     </Tab.Navigator>
   );

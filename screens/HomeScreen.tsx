@@ -9,7 +9,7 @@ import StorageService from '../utils/StorageService';
 import ErrorScreen from './ErrorScreen';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { useAppTimerContext } from '../components/AppTimerProvider'; 
-import Bubble from './Bubble';
+import Bubble from './PowerBallBubble';
 import HeaderScreen from './HeaderScreen';
 import ChooseGameScreen from './ChooseGameScreen';
 
