@@ -18,11 +18,11 @@ const PlayingGameScreen = ({ route, navigation }: Props) => {
       <View className="w-full h-[95%]">
             <View className="h-[100%] bg-blue-700">
                 {gameType == powerballType ? (
-                    <PowerBallBubble size={50} 
+                    <PowerBallBubble size={40} 
                       powerNumberLength={69}
                     />
                   ) : (
-                    <PowerBallBubble size={50} 
+                    <PowerBallBubble size={40} 
                       powerNumberLength={70}
                     />
                   )

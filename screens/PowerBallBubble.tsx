@@ -4,6 +4,9 @@ import { View, Image, Dimensions, ScrollView, Animated, TouchableOpacity, Text }
 // Import the bubble image
 import bubbleImage from '../assets/imgs/bubble.png';
 import CustomButton from './CustomButton';
+import Icon from 'react-native-vector-icons/FontAwesome5';
+
+import PowerBallBubbleItem from "./PowerBallBubbleItem";
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
@@ -17,7 +20,10 @@ interface BubbleProps {
 }
 
 type positionProps = {
-  x: number; y: number; animValue: Animated.Value; number: number
+  x: number; y: number; 
+  animValue: Animated.Value; 
+  number: number;
+  selected: boolean;
 }
 
 const PowerBallBubble: React.FC<BubbleProps> = ({ 
@@ -27,9 +33,12 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
   const [positions, setPositions] = useState<positionProps[]>([]);
   const [numberArray, setNumberArray] = useState<number[]>([]);
   const [selectedNumber, setSelectedNumber] = useState<number[]>([]);
+  const [positionsSort, setPositionsSort] = useState<boolean>(true);
 
   const [positionsSpecialNumber, setPositionsSpecialNumber] = useState<positionProps[]>([]);
   const [numberSpecialArray, setNumberSpecialArray] = useState<number[]>([]);
+  const [selectedSpecialNumber, setSelectedSpecialNumber] = useState<number[]>([]);
+  const [positionsSpecialNumberSort, setPositionsSpecialNumberSort] = useState<boolean>(true);
 
   useEffect(() => {
     generateNumberArray(powerNumberLength, 1);
@@ -107,7 +116,7 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
         ).start();
 
         // Add the position, Animated.Value, and the number to the array
-        newPositions.push({ x, y, animValue, number });
+        newPositions.push({ x, y, animValue, number, selected: false });
 
         // Break the loop if we reach the desired number of bubbles
         if (newPositions.length === numberLength) {
@@ -119,42 +128,185 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
     setPositions(newPositions);
   };
 
+  useEffect(() => {
+    
+    setSelectedNumber([]);
+
+    positions.map(item => {
+      if(item.selected) {
+        setSelectedNumber((prev) => [...prev, item.number]);
+      }
+    });
+  }, [positions]);
+
+  useEffect(() => {
+    
+    setSelectedSpecialNumber([]);
+
+    positionsSpecialNumber.map(item => {
+      if(item.selected) {
+        setSelectedSpecialNumber((prev) => [...prev, item.number]);
+      }
+    });
+  }, [positionsSpecialNumber]);
+
   const handleBubblePress = (index: number, positions: positionProps[], 
-      setPositions: React.Dispatch<React.SetStateAction<positionProps[]>>
+      setPositions: React.Dispatch<React.SetStateAction<positionProps[]>>,
+      isSpecialNumber: boolean
     ) => {
 
-    const clickedNumber = positions[index].number;
-    const isSelected = selectedNumber.includes(clickedNumber);
+    const lengthNumberSelected = isSpecialNumber ? 1 : 5;
 
-    if (isSelected) {
-      // If the clicked bubble is already selected, remove it from the selectedNumber array
-      setSelectedNumber((prev) => prev.filter((num) => num !== clickedNumber));
-    } else {
-      // If the clicked bubble is not selected, add it to the selectedNumber array
-      if (!selectedNumber || selectedNumber.length < 5) {
-        setSelectedNumber((prev) => [...prev, clickedNumber]);
+    setPositions((prevPositions) => {
+
+      const isSelected =  prevPositions[index].selected;
+
+      if(!isSelected) {
+        const selectedCount = prevPositions.filter((position) => position.selected).length;
+        if(selectedCount < lengthNumberSelected) {
+          const updatedPositions = prevPositions.map((position, i) =>
+            i === index ? { ...position, selected: !position.selected } : position
+          );
+
+          return updatedPositions;
+        }
+      } else {
+        const updatedPositions = prevPositions.map((position, i) =>
+          i === index ? { ...position, selected: !position.selected } : position
+        );
+
+        return updatedPositions;
       }
-    }
 
-      // Toggle the showNumber state for the clicked bubble
-    // const updatedPositions = positions.map((position, i) => {
-    //   if (i === index) {
-    //     return { ...position, showNumber: !position.showNumber };
-    //   } else {
-    //     return position;
-    //   }
-    // });
-    // setPositions(updatedPositions);
-
+      return prevPositions;
+    });
     
+    // if(!positions[index].selected) {
+    //   setSelectedNumber((prev) => [...prev, positions[index].number]);
+    // } else {
+    //   setSelectedNumber((prev) => prev.filter((num) => num !== positions[index].number));
+    // }
+
+    // const clickedNumber = positions[index].number;
+
+    // const isSelected = isSpecialNumber 
+    //                       ? selectedSpecialNumber.includes(clickedNumber)
+    //                       : selectedNumber.includes(clickedNumber);
+
+    // if (isSelected) {
+    //   // If the clicked bubble is already selected, remove it from the selectedNumber array
+    //   isSpecialNumber
+    //     ? setSelectedSpecialNumber((prev) => prev.filter((num) => num !== clickedNumber)) 
+    //     : setSelectedNumber((prev) => prev.filter((num) => num !== clickedNumber));
+    // } else {
+    //   // If the clicked bubble is not selected, add it to the selectedNumber array
+    //   if(isSpecialNumber) {
+    //     if (selectedSpecialNumber.length >= 1) {
+    //       // Limit the selected bubbles to only five by removing the oldest one
+    //       setSelectedSpecialNumber((prev) => prev.slice(1).concat(clickedNumber));
+    //     } else {
+    //       setSelectedSpecialNumber((prev) => [...prev, clickedNumber]);
+    //     }
+    //   } else {
+    //     console.log("a1");
+    //     console.log(selectedNumber.length);
+    //     if (selectedNumber.length >= 5) {
+    //       console.log("a2");
+    //       // Limit the selected bubbles to only five by removing the oldest one
+    //       setSelectedNumber((prev) => prev.slice(1).concat(clickedNumber));
+    //     } else {
+    //       console.log("a3");
+    //       setSelectedNumber((prev) => [...prev, clickedNumber]);
+    //     }
+    //   }
+    // }
   };
 
+  // Function to shuffle the positions array using the Fisher-Yates algorithm
+  const shuffleArray = (array: positionProps[]) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+  };
+
+  const sortNumberHandler = (isSpecialNumber: boolean) => {
+    if(!isSpecialNumber) {
+      setPositionsSort(!positionsSort);
+      if(positionsSort) {
+        const sortedPositions = [...positions].sort((a, b) => a.number - b.number);
+        setPositions(sortedPositions);
+      } else {
+        const shuffledPositions = [...positions];
+        shuffleArray(shuffledPositions);
+        setPositions(shuffledPositions);
+      }
+    } else {
+      setPositionsSpecialNumberSort(!positionsSpecialNumberSort);
+      if(positionsSpecialNumberSort) {
+        const sortedPositions = [...positionsSpecialNumber].sort((a, b) => a.number - b.number);
+        setPositionsSpecialNumber(sortedPositions);
+      } else {
+        const shuffledPositions = [...positionsSpecialNumber];
+        shuffleArray(shuffledPositions);
+        setPositionsSpecialNumber(shuffledPositions);
+      }
+    }
+  }
+
+  function quickpick(existingNumbers: number[], numberRandomlength: number, totalLengthNumberToPick: number): number[] {
+    const allNumbers = Array.from({ length: numberRandomlength }, (_, index) => index + 1);
+    const availableNumbers = allNumbers.filter((num) => !existingNumbers.includes(num));
+  
+    const pickedNumbers: number[] = [];
+
+    if(existingNumbers.length < totalLengthNumberToPick) {
+      existingNumbers.map(number => {
+        pickedNumbers.push(number);
+      });
+    }
+
+    while (pickedNumbers.length < totalLengthNumberToPick) {
+      const randomIndex = Math.floor(Math.random() * availableNumbers.length);
+      const pickedNumber = availableNumbers.splice(randomIndex, 1)[0];
+      pickedNumbers.push(pickedNumber);
+    }
+  
+    return pickedNumbers;
+  }
+
+  const quickPickHandler = () => {
+    const randomNumber = quickpick(selectedNumber, powerNumberLength, 5);
+    setPositions((prevPositions) => {
+
+      const updatedPositions = prevPositions.map((position, i) =>
+        randomNumber.includes(position.number) ? { ...position, selected: true } : { ...position, selected: false }
+      );
+
+
+      return updatedPositions;
+    });
+
+    const randomSpecialNumber = quickpick(selectedSpecialNumber, powerSpecialNumberLength, 1);
+
+    setPositionsSpecialNumber((prevPositions) => {
+
+      const updatedPositions = prevPositions.map((position, i) =>
+        randomSpecialNumber.includes(position.number) ? { ...position, selected: true } : { ...position, selected: false }
+      );
+
+      return updatedPositions;
+    });
+  }
 
   return (
     <ScrollView contentContainerStyle={{ paddingBottom: 16 }}>
       <View className="flex-row justify-between mb-2 mt-[-10px]">
-        <View className="justify-center mt-3">
-          <Text className="pl-3 text-xl color-white">Choose 5 numbers</Text>
+        <View className="justify-center mt-7 flex-row">
+          <Text className="pl-3 text-xl color-white mr-2">Choose 5 numbers</Text>
+          <TouchableOpacity onPress={() => sortNumberHandler(false)}>
+            <Icon name="sort" size={25} color={"white"} />
+          </TouchableOpacity>
         </View>
         <TouchableOpacity className="mr-1">
           <CustomButton 
@@ -162,90 +314,68 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
               height={50}
               round={50}
               bgColor='transparent'
-              onClickHandler={() => {}}
+              onClickHandler={() => quickPickHandler()}
               text="Quick Pick"
               icon="bolt"
             />
         </TouchableOpacity>
       </View>
-      <View className="" style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
+      <View className="flex-row ml-3 mt-[-10] align-center flex-wrap	">
+        <Text className="text-xl font-bold color-white mt-1">Your Number: </Text>
+        {selectedNumber.map((number, index) => (
+          <Text key={index} className="text-center w-10 h-10 text-xl font-bold color-white 
+                    mr-2 border rounded-full p-1 px-2 border-white">
+            {number}
+            </Text>
+        ))}
+      </View>
+      <View className="mt-3 ml-1" 
+        style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
         {positions.map((position, index) => (
-          <TouchableOpacity key={index} onPress={() => handleBubblePress(index, positions, setPositions)}>
-            <Animated.View
-              style={{
-                marginLeft: 8,
-                marginTop: 8,
-                transform: [
-                  {
-                    translateY: position.animValue.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [0, 10], // Change this value to adjust the vertical movement range
-                    }),
-                  },
-                ],
-              }}
-            >
-              {/* Use the Image component for the bubble */}
-              <Image source={bubbleImage} style={{ width: size, height: size }} />
-              {selectedNumber.includes(position.number) && (
-                <View style={{ position: 'absolute', top: size / 2 - 12, left: size / 2 - 12 }}>
-                  <Text
-                    className="text-xl font-bold mt-[-4]"
-                    style={{paddingLeft: position.number < 10 ? 6 : 0}}
-                  >
-                    {position.number}
-                  </Text>
-                </View>
-              )}
-              {/* {position.showNumber && (
-                <View style={{ position: 'absolute', top: size / 2 - 12, left: size / 2 - 12 }}>
-                  <Text className="text-xl font-bold mt-[-4]"
-                    style={{paddingLeft: position.number < 10 ? 6 : 0}}
-                  >
-                    {position.number}
-                  </Text>
-                </View>
-              )} */}
-            </Animated.View>
-          </TouchableOpacity>
+          <PowerBallBubbleItem 
+            key={index}
+            index={index}
+            position={position}
+            size={size}
+            selectedNumber={selectedNumber}
+            handleBubblePress={handleBubblePress}
+            positions={positions}
+            setPositions={setPositions}
+            isSpecialNumber={false}
+          />
         ))}
       </View>
 
-      <View className="flex-row justify-between mb-2 mt-10">
-        <View className="justify-center mt-3">
-          <Text className="pl-3 text-xl color-white">Choose 1 special numbers</Text>
+      <View className="flex-row mb-2 mt-10">
+        <View className="justify-center mt-3 flex-row">
+          <Text className="pl-3 text-xl color-white mr-2 mt-[-1]">Choose 1 special numbers</Text>
+          <TouchableOpacity onPress={() => sortNumberHandler(true)}>
+            <Icon name="sort" size={25} color={"white"} />
+          </TouchableOpacity>
+        </View>
+        <View className="mt-2">
+          {selectedSpecialNumber.map((number, index) => (
+            <Text key={index} className="ml-3 text-center w-10 h-10 text-xl font-bold color-white 
+                      mr-2 border rounded-full p-1 px-2 border-white">
+              {number}
+              </Text>
+          ))}
         </View>
       </View>
-      <View className="" style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
+      <View className=" ml-1" 
+        style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
         {positionsSpecialNumber.map((position, index) => (
-          <TouchableOpacity key={index} onPress={() => handleBubblePress(index, positionsSpecialNumber, setPositionsSpecialNumber)}>
-            <Animated.View
-              style={{
-                marginLeft: 8,
-                marginTop: 8,
-                transform: [
-                  {
-                    translateY: position.animValue.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [0, 10], // Change this value to adjust the vertical movement range
-                    }),
-                  },
-                ],
-              }}
-            >
-              {/* Use the Image component for the bubble */}
-              <Image source={bubbleImage} style={{ width: size, height: size }} />
-              {position.showNumber && (
-                <View style={{ position: 'absolute', top: size / 2 - 12, left: size / 2 - 12 }}>
-                  <Text className="text-xl font-bold mt-[-4]"
-                    style={{paddingLeft: position.number < 10 ? 6 : 0}}
-                  >
-                    {position.number}
-                  </Text>
-                </View>
-              )}
-            </Animated.View>
-          </TouchableOpacity>
+          <PowerBallBubbleItem 
+            key={index}
+            index={index}
+            position={position}
+            size={size}
+            selectedNumber={selectedSpecialNumber}
+            handleBubblePress={handleBubblePress}
+            positions={positionsSpecialNumber}
+            setPositions={setPositionsSpecialNumber}
+            isSpecialNumber={true}
+          />
         ))}
       </View>
     </ScrollView>

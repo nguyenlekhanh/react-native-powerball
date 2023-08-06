@@ -2,7 +2,7 @@ import { View, Text } from 'react-native'
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '../screens/HomeScreen';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 import HomeStack from '../screens/HomeStack';
 
 
@@ -23,7 +23,7 @@ const MainBottomTabNavigator = () => {
         headerShown: false,
         tabBarIcon: ({ color, size }) => {
           let iconName;
-          if (route.name === 'Home') {
+          if (route.name === 'HomeStack') {
             iconName = 'home';
           } else if (route.name === 'Settings') {
             iconName = 'cog';
