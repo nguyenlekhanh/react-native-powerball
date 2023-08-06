@@ -4,6 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeScreen from '../screens/HomeScreen';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import HomeStack from '../screens/HomeStack';
+import ReviewScreen from '../screens/ReviewScreen';
 
 
 const Tab = createBottomTabNavigator();
@@ -25,7 +26,7 @@ const MainBottomTabNavigator = () => {
           let iconName;
           if (route.name === 'HomeStack') {
             iconName = 'home';
-          } else if (route.name === 'Settings') {
+          } else if (route.name === 'Review') {
             iconName = 'cog';
           }
           // Return the icon component with the specified name, color, and size
@@ -34,8 +35,12 @@ const MainBottomTabNavigator = () => {
         tabBarLabelStyle: { fontSize: 16, fontWeight:"bold" }
       })}
     >
-      <Tab.Screen name="HomeStack" component={HomeStack} />
-      <Tab.Screen name="Settings" component={SettingsScreen} />
+      <Tab.Screen name="HomeStack" component={HomeStack} 
+        options={{ title: 'Home' }}
+      />
+      <Tab.Screen name="Review" component={ReviewScreen} 
+        options={{ title: 'Review' }}
+      />
     </Tab.Navigator>
   );
 }

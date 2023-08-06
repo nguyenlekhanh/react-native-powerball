@@ -29,6 +29,7 @@ const ChooseGameScreen = () => {
             bgColor='#EF4444'
             onClickHandler={() => powerballPlayingHandler(powerballType)}
             text="Play Now"
+            icon=""
           />
         </View>
       </View>
@@ -44,6 +45,7 @@ const ChooseGameScreen = () => {
             bgColor='#EF4444'
             onClickHandler={() => powerballPlayingHandler(megaType)}
             text="Play Now"
+            icon=""
           />
         </View>
       </View>

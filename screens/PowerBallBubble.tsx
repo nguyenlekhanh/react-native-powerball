@@ -5,6 +5,7 @@ import { View, Image, Dimensions, ScrollView, Animated, TouchableOpacity, Text }
 import bubbleImage from '../assets/imgs/bubble.png';
 import CustomButton from './CustomButton';
 import Icon from 'react-native-vector-icons/FontAwesome5';
+import { useNavigation } from '@react-navigation/native'
 
 import PowerBallBubbleItem from "./PowerBallBubbleItem";
 
@@ -12,11 +13,14 @@ const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
 import { powerballType, megaType } from '../utils/variables';
+import StorageService from '../utils/StorageService';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 interface BubbleProps {
   size: number;
   powerNumberLength: number;
   powerSpecialNumberLength: number;
+  gameType: string;
 }
 
 type positionProps = {
@@ -27,8 +31,11 @@ type positionProps = {
 }
 
 const PowerBallBubble: React.FC<BubbleProps> = ({ 
-    size, powerNumberLength = 69, powerSpecialNumberLength = 26
+    size, powerNumberLength = 69, powerSpecialNumberLength = 26,
+    gameType
   }) => {
+
+  const navigation = useNavigation();
 
   const [positions, setPositions] = useState<positionProps[]>([]);
   const [numberArray, setNumberArray] = useState<number[]>([]);
@@ -180,46 +187,6 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
 
       return prevPositions;
     });
-    
-    // if(!positions[index].selected) {
-    //   setSelectedNumber((prev) => [...prev, positions[index].number]);
-    // } else {
-    //   setSelectedNumber((prev) => prev.filter((num) => num !== positions[index].number));
-    // }
-
-    // const clickedNumber = positions[index].number;
-
-    // const isSelected = isSpecialNumber 
-    //                       ? selectedSpecialNumber.includes(clickedNumber)
-    //                       : selectedNumber.includes(clickedNumber);
-
-    // if (isSelected) {
-    //   // If the clicked bubble is already selected, remove it from the selectedNumber array
-    //   isSpecialNumber
-    //     ? setSelectedSpecialNumber((prev) => prev.filter((num) => num !== clickedNumber)) 
-    //     : setSelectedNumber((prev) => prev.filter((num) => num !== clickedNumber));
-    // } else {
-    //   // If the clicked bubble is not selected, add it to the selectedNumber array
-    //   if(isSpecialNumber) {
-    //     if (selectedSpecialNumber.length >= 1) {
-    //       // Limit the selected bubbles to only five by removing the oldest one
-    //       setSelectedSpecialNumber((prev) => prev.slice(1).concat(clickedNumber));
-    //     } else {
-    //       setSelectedSpecialNumber((prev) => [...prev, clickedNumber]);
-    //     }
-    //   } else {
-    //     console.log("a1");
-    //     console.log(selectedNumber.length);
-    //     if (selectedNumber.length >= 5) {
-    //       console.log("a2");
-    //       // Limit the selected bubbles to only five by removing the oldest one
-    //       setSelectedNumber((prev) => prev.slice(1).concat(clickedNumber));
-    //     } else {
-    //       console.log("a3");
-    //       setSelectedNumber((prev) => [...prev, clickedNumber]);
-    //     }
-    //   }
-    // }
   };
 
   // Function to shuffle the positions array using the Fisher-Yates algorithm
@@ -297,6 +264,34 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
 
       return updatedPositions;
     });
+  }
+
+  type powerballItemProps = {
+    powerballNumber: number[],
+    type: string
+  }
+  const reviewPowerBallHandler = async () => {
+    if(selectedNumber.length >=5 && selectedSpecialNumber.length >=1) {
+      const powerBallNumber = [...selectedNumber, ...selectedSpecialNumber];
+      const powerBallItem = {
+                      powerBallNumber: powerBallNumber,
+                      type: gameType
+                    };
+      
+      let powerballNumbers:any = await StorageService.getItem(StorageService.POWERBALL_NUMBERS);
+
+      if(powerballNumbers == '') {
+        powerballNumbers = [] as Array<powerballItemProps>;
+      } else {
+        powerballNumbers = powerballNumbers as Array<powerballItemProps>;
+      }
+      
+      powerballNumbers.push(powerBallItem);
+      
+      await StorageService.saveItem(StorageService.POWERBALL_NUMBERS, powerballNumbers);
+
+      navigation.navigate('Review');
+    }
   }
 
   return (
@@ -377,6 +372,18 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
             isSpecialNumber={true}
           />
         ))}
+      </View>
+
+      <View className="w-full mt-5 items-center">
+        <CustomButton 
+              width={240}
+              height={50}
+              round={50}
+              bgColor={selectedNumber.length >=5 && selectedSpecialNumber.length >= 1 ? 'red' : 'gray'}
+              onClickHandler={() => reviewPowerBallHandler()}
+              text="Review"
+              icon=""
+            />
       </View>
     </ScrollView>
   );

@@ -20,10 +20,12 @@ const PlayingGameScreen = ({ route, navigation }: Props) => {
                 {gameType == powerballType ? (
                     <PowerBallBubble size={40} 
                       powerNumberLength={69}
+                      gameType={gameType}
                     />
                   ) : (
                     <PowerBallBubble size={40} 
                       powerNumberLength={70}
+                      gameType={gameType}
                     />
                   )
                 }
