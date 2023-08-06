@@ -18,10 +18,10 @@ const HomeStack = () => {
         component={PlayingGameScreen} 
         options={{ title: 'Playing Game' }}
       />
-      <Stack.Screen 
+      {/* <Stack.Screen 
           name="Review" 
           component={ReviewScreen} 
-        />
+        /> */}
     </Stack.Navigator>
   )
 }

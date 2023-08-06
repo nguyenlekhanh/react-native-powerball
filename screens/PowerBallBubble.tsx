@@ -107,20 +107,20 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
         const animValue = new Animated.Value(0);
 
         // Start the animation loop for each bubble
-        Animated.loop(
-          Animated.sequence([
-            Animated.timing(animValue, {
-              toValue: 1,
-              duration: 1000,
-              useNativeDriver: true,
-            }),
-            Animated.timing(animValue, {
-              toValue: 0,
-              duration: 1000,
-              useNativeDriver: true,
-            }),
-          ])
-        ).start();
+        // Animated.loop(
+        //   Animated.sequence([
+        //     Animated.timing(animValue, {
+        //       toValue: 1,
+        //       duration: 1000,
+        //       useNativeDriver: true,
+        //     }),
+        //     Animated.timing(animValue, {
+        //       toValue: 0,
+        //       duration: 1000,
+        //       useNativeDriver: true,
+        //     }),
+        //   ])
+        // ).start();
 
         // Add the position, Animated.Value, and the number to the array
         newPositions.push({ x, y, animValue, number, selected: false });
@@ -144,6 +144,11 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
         setSelectedNumber((prev) => [...prev, item.number]);
       }
     });
+    
+    return () => {
+      // Stop any asynchronous operations or cleanup here
+      // For example, you can cancel any ongoing requests or clear timers
+    };
   }, [positions]);
 
   useEffect(() => {
@@ -155,6 +160,11 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
         setSelectedSpecialNumber((prev) => [...prev, item.number]);
       }
     });
+
+    return () => {
+      // Stop any asynchronous operations or cleanup here
+      // For example, you can cancel any ongoing requests or clear timers
+    };
   }, [positionsSpecialNumber]);
 
   const handleBubblePress = (index: number, positions: positionProps[], 
