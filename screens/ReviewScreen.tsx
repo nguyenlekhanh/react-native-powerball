@@ -6,6 +6,7 @@ import { useNavigation } from '@react-navigation/native'
 import CustomButton from './CustomButton';
 
 type powerballItemProps = {
+  id: string,
   powerBallNumber: number[],
   type: string
 }
@@ -30,15 +31,40 @@ export default function ReviewScreen() {
     return unsubscribe;
   }, [navigation]);
 
-  const deletePowerBallItemHandler = async (index:number) => {
+  const deletePowerBallItemHandler = async (id:string) => {
 
-    let powerBallItemsClone = [...powerballItems];
+    // console.log(id);
 
-    powerBallItemsClone = powerBallItemsClone.filter((item, itemIndex) => itemIndex !== index);
+    setPowerballItems((prevData, indexItem) =>
+      prevData.filter((item) => item.id !== id)
+    );
 
-    setPowerballItems(powerBallItemsClone);
-    await StorageService.saveItem(StorageService.POWERBALL_NUMBERS, powerBallItemsClone);
+    // const newData = [...powerballItems];
+    // newData.splice(index, 1);
+    // setPowerballItems(newData);
+
+    // console.log(powerballItems);
+    // let powerBallItemsClone = [...powerballItems];
+
+    // powerBallItemsClone = powerBallItemsClone.filter((item) => 
+    //   item.id !== id
+    // );
+
+    // console.log(powerBallItemsClone);
+    // setPowerballItems(powerBallItemsClone);
+    //await StorageService.saveItem(StorageService.POWERBALL_NUMBERS, powerBallItemsClone);
   }
+
+  useEffect(() => {
+    const savePowerballItems = async () => {
+      if(powerballItems) {
+        await StorageService.saveItem(StorageService.POWERBALL_NUMBERS, powerballItems);
+      }
+    };
+
+    savePowerballItems();
+
+  }, [powerballItems]);
 
   return (
     <ScrollView contentContainerStyle={{ paddingBottom: 16 }}>
@@ -67,7 +93,7 @@ export default function ReviewScreen() {
         {powerballItems?.map((item, index) => (
           <ReviewItemScreen 
             index={index}
-            key={index}
+            key={item.id}
             item={item}
             deletePowerBallItemHandler={deletePowerBallItemHandler}
           />

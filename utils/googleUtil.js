@@ -24,10 +24,33 @@ export const googleSignIn = async (setUser) => {
     //Another to sign in
     await GoogleSignin.hasPlayServices();
     const googleUserInfo = await GoogleSignin.signIn();
+
     if(googleUserInfo) {
         await StorageService.saveItem(StorageService.USER, JSON.stringify(googleUserInfo));
         setUser(googleUserInfo);
     }
+
+    // try {
+    //     console.log('abc');
+    //     await GoogleSignin.hasPlayServices();
+    //     const userInfo = await GoogleSignin.signIn();
+    //     console.log('a1');
+    //   } catch (error) {
+    //     console.log('a2');
+    //     console.log(error.code);
+    //     if (error.code === statusCodes.SIGN_IN_CANCELLED) {
+    //       // user cancelled the login flow
+    //     } else if (error.code === statusCodes.IN_PROGRESS) {
+    //       // operation (e.g. sign in) is in progress already
+    //     } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
+    //       // play services not available or outdated
+    //     } else {
+    //       // some other error happened
+    //     }
+    //     console.log(error);
+    //   }
+
+
 
     // GoogleSignin.hasPlayServices().then((hasPlayService) => {
     //     if (hasPlayService) {

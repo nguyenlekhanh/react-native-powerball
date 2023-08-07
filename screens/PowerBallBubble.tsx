@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Image, Dimensions, ScrollView, Animated, TouchableOpacity, Text } from 'react-native';
+import 'react-native-get-random-values';
+import { v4 as uuidv4 } from 'uuid';
 
 // Import the bubble image
 import bubbleImage from '../assets/imgs/bubble.png';
@@ -24,6 +26,7 @@ interface BubbleProps {
 }
 
 type positionProps = {
+  id: number;
   x: number; y: number; 
   animValue: Animated.Value; 
   number: number;
@@ -90,6 +93,7 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
 
     const newPositions = [];
 
+    let id = 1;
     for (let row = 0; row < bubblesPerColumn; row++) {
       for (let col = 0; col < bubblesPerRow; col++) {
         const x = col * gridWidth + (gridWidth - size) / 2;
@@ -123,8 +127,8 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
         // ).start();
 
         // Add the position, Animated.Value, and the number to the array
-        newPositions.push({ x, y, animValue, number, selected: false });
-
+        newPositions.push({ id, x, y, animValue, number, selected: false });
+        id++;
         // Break the loop if we reach the desired number of bubbles
         if (newPositions.length === numberLength) {
           break;
@@ -276,26 +280,39 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
     });
   }
 
+  const removeQuickPickHandler = () => {
+    setPositions((prevPositions) => 
+      prevPositions.map((item) => ({ ...item, selected: false }))
+    );
+
+    setPositionsSpecialNumber((prevPositions) => 
+      prevPositions.map((item) => ({ ...item, selected: false }))
+    );
+  }
+
   type powerballItemProps = {
+    id: string,
     powerballNumber: number[],
     type: string
   }
   const reviewPowerBallHandler = async () => {
     if(selectedNumber.length >=5 && selectedSpecialNumber.length >=1) {
       const powerBallNumber = [...selectedNumber, ...selectedSpecialNumber];
-      const powerBallItem = {
-                      powerBallNumber: powerBallNumber,
-                      type: gameType
-                    };
-      
+
       let powerballNumbers:any = await StorageService.getItem(StorageService.POWERBALL_NUMBERS);
 
-      if(powerballNumbers == '') {
+      if(!powerballNumbers) {
         powerballNumbers = [] as Array<powerballItemProps>;
       } else {
         powerballNumbers = powerballNumbers as Array<powerballItemProps>;
       }
       
+      const powerBallItem = {
+        id: uuidv4(),
+        powerBallNumber: powerBallNumber,
+        type: gameType
+      };
+
       powerballNumbers.push(powerBallItem);
       
       await StorageService.saveItem(StorageService.POWERBALL_NUMBERS, powerballNumbers);
@@ -306,32 +323,33 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
 
   return (
     <ScrollView contentContainerStyle={{ paddingBottom: 16 }}>
-      <View className="flex-row justify-between mb-2 mt-[-10px]">
-        <View className="justify-center mt-7 flex-row">
+      <View className="flex-row justify-between mb-2  mt-3">
+        <View className="justify-center flex-row">
           <Text className="pl-3 text-xl color-white mr-2">Choose 5 numbers</Text>
           <TouchableOpacity onPress={() => sortNumberHandler(false)}>
             <Icon name="sort" size={25} color={"white"} />
           </TouchableOpacity>
         </View>
-        <TouchableOpacity className="mr-1">
-          <CustomButton 
-              width={50}
-              height={50}
-              round={50}
-              bgColor='transparent'
-              onClickHandler={() => quickPickHandler()}
-              text="Quick Pick"
-              icon="bolt"
-            />
-        </TouchableOpacity>
+        <View className="flex-row justify-center items-center mr-3">
+          <TouchableOpacity onPress={() => quickPickHandler()}
+            className="mr-4"
+          >
+            <Icon name="bolt" size={25} color={"white"} />
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => removeQuickPickHandler()}>
+            <Icon name="trash" size={25} color={"white"} />
+          </TouchableOpacity>
+        </View>
       </View>
-      <View className="flex-row ml-3 mt-[-10] align-center flex-wrap	">
-        <Text className="text-xl font-bold color-white mt-1">Your Number: </Text>
+      <View className="flex-row ml-3 mt-[-10] align-center flex-wrap mt-2">
+        <Text className="text-lg font-bold color-white">Your Number: </Text>
         {selectedNumber.map((number, index) => (
-          <Text key={index} className="text-center w-10 h-10 text-xl font-bold color-white 
-                    mr-2 border rounded-full p-1 px-2 border-white">
+          <View key={index} className="w-8 h-8 border rounded-full border-white mr-2">
+            <Text  className="text-center text-xl font-bold color-white 
+                    ">
             {number}
             </Text>
+          </View>
         ))}
       </View>
       <View className="mt-3 ml-1" 
@@ -351,23 +369,27 @@ const PowerBallBubble: React.FC<BubbleProps> = ({
         ))}
       </View>
 
-      <View className="flex-row mb-2 mt-10">
-        <View className="justify-center mt-3 flex-row">
+      <View className="flex-row mb-4 mt-10">
+        <View className="justify-center flex-row mt-1">
           <Text className="pl-3 text-xl color-white mr-2 mt-[-1]">Choose 1 special numbers</Text>
-          <TouchableOpacity onPress={() => sortNumberHandler(true)}>
+          <TouchableOpacity onPress={() => sortNumberHandler(true)}
+            className="mr-2"
+          >
             <Icon name="sort" size={25} color={"white"} />
           </TouchableOpacity>
         </View>
-        <View className="mt-2">
+        <View className="">
           {selectedSpecialNumber.map((number, index) => (
-            <Text key={index} className="ml-3 text-center w-10 h-10 text-xl font-bold color-white 
-                      mr-2 border rounded-full p-1 px-2 border-white">
+            <View key={index} className="w-8 h-8 border rounded-full border-white mr-2">
+              <Text key={index} className="text-center text-xl font-bold color-white 
+                      ">
               {number}
               </Text>
+            </View>
           ))}
         </View>
       </View>
-      <View className=" ml-1" 
+      <View className="ml-1" 
         style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
         {positionsSpecialNumber.map((position, index) => (
           <PowerBallBubbleItem 

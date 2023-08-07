@@ -1,6 +1,6 @@
 export const googleExpoClientId="941001352428-fbo21fnfabg5ruslf6giufujlea2kvu1.apps.googleusercontent.com";
-export const googleAndroidClientId="941001352428-5o71fbh7klqrlb0r0hft6emk4t7h31o6.apps.googleusercontent.com";
-export const googleIosClientId="941001352428-3jvqfq4mjbfa3me4bsglsc1qff81474q.apps.googleusercontent.com";
+export const googleAndroidClientId="109175270742-oaqmi2p8rl00dcr8veed5r3gimhpoat8.apps.googleusercontent.com";
+export const googleIosClientId="109175270742-33jtnam2vuored99s41bpd4t5m1h0m3s.apps.googleusercontent.com";
 export const googleWebClientId="941001352428-ekedip2lb1eovghgq98dtn5mq1fc6l4i.apps.googleusercontent.com";
 
 export const powerballType = "powerball";

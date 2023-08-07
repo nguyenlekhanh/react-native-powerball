@@ -4,6 +4,7 @@ import { powerballType, megaType } from '../utils/variables'
 import Icon from 'react-native-vector-icons/FontAwesome5';
 
 type powerballItemProps = {
+  id: string,
   powerBallNumber: number[],
   type: string
 }
@@ -11,7 +12,7 @@ type powerballItemProps = {
 type PropsType = {
   index: number,
   item: powerballItemProps,
-  deletePowerBallItemHandler: (index:number) => void
+  deletePowerBallItemHandler: (id:string) => void
 }
 
 const ReviewItemScreen = ({
@@ -23,11 +24,11 @@ const ReviewItemScreen = ({
   
   return (
     <View
-      className="flex-row "
+      className="flex-row flex-wrap"
     >
-      <View className="pt-2 pr-2">
+      <View className="pt-1 pr-2">
         <TouchableOpacity
-          onPress={() => deletePowerBallItemHandler(index)}
+          onPress={() => deletePowerBallItemHandler(item.id)}
         >
           <Icon name="trash" size={20} color={"red"} />
         </TouchableOpacity>
@@ -35,8 +36,8 @@ const ReviewItemScreen = ({
 
       {item.powerBallNumber.map((number, numberIndex) => (
         <Text key={numberIndex}
-          className="text-center w-10 h-10 text-xl font-bold 
-                  mr-2 border rounded-full p-1 px-2 border-sky-500
+          className="text-center w-8 h-8 text-base font-bold 
+                  mr-1 border rounded-full p-1 px-1 border-sky-500
                   text-sky-500 mb-2
                   "
           style={{
@@ -49,10 +50,16 @@ const ReviewItemScreen = ({
       ))}
 
       <Text 
-      className="text-lg text-sky-500 pt-1"
+      className="text-base text-sky-500 pt-1"
       >
-        {item.type == powerballType ? "Power Ball" : "Mega"}
+        {item.type == powerballType ? "- PowerBall" : "- Mega"}
       </Text>
+      <TouchableOpacity
+          onPress={() => {}}
+          className="pt-1 pl-2"
+        >
+          <Icon name="users" size={20} color={"red"} />
+        </TouchableOpacity>
     </View>
   )
 }

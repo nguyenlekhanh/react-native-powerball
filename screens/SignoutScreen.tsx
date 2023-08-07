@@ -80,7 +80,7 @@ const SignoutScreen: React.FC = () => {
     return (
       <TouchableOpacity onPress={() => removeUser()}>
         <Text
-          className="bold mr-1 text-lg"
+          className="bold mr-1 mb-1 text-xl font-bold pr-2 color-blue-700"
         >
           {t("sign-out")}
         </Text>
