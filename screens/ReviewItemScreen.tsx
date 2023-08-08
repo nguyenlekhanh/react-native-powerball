@@ -141,7 +141,7 @@ const ReviewItemScreen = ({
         </TouchableOpacity>
 
       <ModalInput 
-        title={"Please verify this captcha: "}
+        title={"Please verify this captcha before sharing: "}
         modalVisible={modalVisible}
         setModalVisibileHandler={setModalVisibileHandler}
         setInputHandler={setInputHandler}

@@ -3,7 +3,7 @@ import React from 'react'
 import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
 
 //banner ads
-const adUnitId = __DEV__ ? TestIds.BANNER : 'ca-app-pub-7627591966956528/6268541907';
+const adUnitId = __DEV__ ? TestIds.BANNER : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy';
 
 const AdsScreen: React.FC = () => {
   return (

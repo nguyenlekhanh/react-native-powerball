@@ -1,4 +1,4 @@
-import { captchaUrl, get_answer, serverUrl, submit_feedback_url, test_answer_2008 } from "./variables";
+import { captchaUrl, getPowerBallUrl, get_answer, serverUrl, submit_feedback_url, test_answer_2008 } from "./variables";
 
 async function fetchData(url, data, type="POST") {
   const token = "Bearer " + data?.token?? '';
@@ -70,7 +70,6 @@ const getUserScore = async (data) => {
 
 const submitFeedback = (data) => {
   const url = serverUrl + submit_feedback_url;
-  let responseData = '';
   return fetchData(url, data);
 }
 
@@ -81,6 +80,11 @@ const getCaptcha = (data) => {
 
 const verifyCaptcha = (data) => {
   const url = serverUrl + captchaUrl;
+  return fetchData(url, data, "POST");
+}
+
+const getPowerball = (data) => {
+  const url = serverUrl + getPowerBallUrl;
   console.log(url);
   return fetchData(url, data, "POST");
 }
@@ -88,5 +92,5 @@ const verifyCaptcha = (data) => {
 
 export { 
   updateAnswer, fetchData, getUserScore, submitFeedback,
-  getCaptcha, verifyCaptcha
+  getCaptcha, verifyCaptcha, getPowerball
 };

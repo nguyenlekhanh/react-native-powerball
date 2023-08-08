@@ -14,3 +14,4 @@ export const test_answer_2008 = "/api/civics/test/answer/2008";
 export const get_answer = "/api/civics/test/get_answer"; 
 export const submit_feedback_url = "/api/contact/feedback"; 
 export const captchaUrl = "/api/captcha"; 
+export const getPowerBallUrl = "/api/powerball/get-powerball"; 
