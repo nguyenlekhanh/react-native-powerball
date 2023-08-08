@@ -6,9 +6,11 @@ export const googleWebClientId="941001352428-ekedip2lb1eovghgq98dtn5mq1fc6l4i.ap
 export const powerballType = "powerball";
 export const megaType = "mega";
 
-export const serverUrl = __DEV__ ? "https://civics-test-nextjs-6hx9kdy0b-nguyenlekhanh811-gmailcom.vercel.app" : "https://civics-test-nextjs-6hx9kdy0b-nguyenlekhanh811-gmailcom.vercel.app"; 
+//export const serverUrl = __DEV__ ? "https://civics-test-nextjs-6hx9kdy0b-nguyenlekhanh811-gmailcom.vercel.app" : "https://civics-test-nextjs-6hx9kdy0b-nguyenlekhanh811-gmailcom.vercel.app"; 
+export const serverUrl = __DEV__ ? "http://10.0.0.108:3000" : "https://civics-test-nextjs-6hx9kdy0b-nguyenlekhanh811-gmailcom.vercel.app"; 
 export const signupWithGoogleUrl = "/api/user/signupWithGoogle/"; 
 export const learn_2008 = "/civics/learn/2008"; 
 export const test_answer_2008 = "/api/civics/test/answer/2008"; 
 export const get_answer = "/api/civics/test/get_answer"; 
 export const submit_feedback_url = "/api/contact/feedback"; 
+export const captchaUrl = "/api/captcha"; 

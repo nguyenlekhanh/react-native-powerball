@@ -1,4 +1,4 @@
-import { get_answer, serverUrl, submit_feedback_url, test_answer_2008 } from "./variables";
+import { captchaUrl, get_answer, serverUrl, submit_feedback_url, test_answer_2008 } from "./variables";
 
 async function fetchData(url, data, type="POST") {
   const token = "Bearer " + data?.token?? '';
@@ -10,6 +10,16 @@ async function fetchData(url, data, type="POST") {
       "Content-type": "application/json"
     },
     body: JSON.stringify(data),
+  }
+
+  if(type == "GET") {
+    options = {
+      method: type,
+      headers: {
+        Authorization: token,
+        "Content-type": "application/json"
+      }
+    }
   }
 
   try {
@@ -64,6 +74,19 @@ const submitFeedback = (data) => {
   return fetchData(url, data);
 }
 
+const getCaptcha = (data) => {
+  const url = serverUrl + captchaUrl;
+  return fetchData(url, data, "GET");
+}
+
+const verifyCaptcha = (data) => {
+  const url = serverUrl + captchaUrl;
+  console.log(url);
+  return fetchData(url, data, "POST");
+}
+
+
 export { 
-  updateAnswer, fetchData, getUserScore, submitFeedback
+  updateAnswer, fetchData, getUserScore, submitFeedback,
+  getCaptcha, verifyCaptcha
 };

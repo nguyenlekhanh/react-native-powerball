@@ -4,6 +4,7 @@ import StorageService from '../utils/StorageService'
 import ReviewItemScreen from './ReviewItemScreen';
 import { useNavigation } from '@react-navigation/native'
 import CustomButton from './CustomButton';
+import HeaderScreen from './HeaderScreen';
 
 type powerballItemProps = {
   id: string,
@@ -32,27 +33,9 @@ export default function ReviewScreen() {
   }, [navigation]);
 
   const deletePowerBallItemHandler = async (id:string) => {
-
-    // console.log(id);
-
-    setPowerballItems((prevData, indexItem) =>
+    setPowerballItems((prevData) =>
       prevData.filter((item) => item.id !== id)
     );
-
-    // const newData = [...powerballItems];
-    // newData.splice(index, 1);
-    // setPowerballItems(newData);
-
-    // console.log(powerballItems);
-    // let powerBallItemsClone = [...powerballItems];
-
-    // powerBallItemsClone = powerBallItemsClone.filter((item) => 
-    //   item.id !== id
-    // );
-
-    // console.log(powerBallItemsClone);
-    // setPowerballItems(powerBallItemsClone);
-    //await StorageService.saveItem(StorageService.POWERBALL_NUMBERS, powerBallItemsClone);
   }
 
   useEffect(() => {
@@ -68,6 +51,7 @@ export default function ReviewScreen() {
 
   return (
     <ScrollView contentContainerStyle={{ paddingBottom: 16 }}>
+      <HeaderScreen />
       <View className="m-2">
         <Text className="text-xl font-bold mb-3 text-sky-500 underline">
           Your numbers: 
